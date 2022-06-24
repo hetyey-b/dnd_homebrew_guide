@@ -6,8 +6,7 @@ const Button = ({text, onClick, additionalCSS}) => {
 		<button
 			className={`
 				border rounded shadow
-				bg-steelBlue text-aliceBlue border-aliceBlue
-				hover:bg-aliceBlue hover:text-steelBlue hover:border-steelBlue
+				hover:bg-slate-500
 				transition-colors duration-300 ease-in-out
 				p-2 mt-4
 				${additionalCSS}

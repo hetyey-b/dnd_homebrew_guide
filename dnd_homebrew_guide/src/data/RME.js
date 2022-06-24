@@ -1959,7 +1959,7 @@ export const weapons = {
       perk: " You may change between weapon forms freely. Additionally, when you hit with this weapon, you can choose to deal only your Strength modifier in damage and automatically entangle your enemy by changing to its whip profile.",
     },
     {
-      name: "Whip Sword (Sword Form)",
+      name: "Whip Sword (Whip Form)",
       gold: 250,
       weight: 3,
       damageTypes: ["slashing"],
@@ -2832,7 +2832,7 @@ export const weapons = {
       name: "Net",
       gold: 1,
       weight: 3,
-      damageTypes: "A Net deals no damage.",
+      damageTypes: ["A Net deals no damage."],
       description:
         "A Large or smaller creature hit by a net is restrained until freed. It has no effect on creatures that are formless or Huge or larger. Dealing 5 slashing damage to the net (AC10) ends the restrained condition and destroys the net. Masters can toss the net in a way that tangles it around their prey, making it much harder to escape.",
       untrained: ["two handed", "thrown (5/10)", "awkward", "entangle"],

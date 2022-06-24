@@ -22,7 +22,7 @@ export const weapons = {
       weight: 3,
       damageTypes: ["piercing"],
       untrained: [
-        "two-handed",
+        "two handed",
         "melee d4",
         "conceal",
         "awkward",
@@ -30,7 +30,7 @@ export const weapons = {
         "reach",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "melee d4",
         "conceal",
         "entangle",
@@ -38,7 +38,7 @@ export const weapons = {
         "reach",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "melee d4",
         "affixed",
         "conceal",
@@ -57,7 +57,7 @@ export const weapons = {
       weight: 1,
       damageTypes: ["piercing", "slashing"],
       untrained: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "conceal",
         "finesse",
@@ -65,7 +65,7 @@ export const weapons = {
         "nimble",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "conceal",
         "finesse",
@@ -74,7 +74,7 @@ export const weapons = {
         "puncture",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "conceal",
         "finesse",
@@ -93,9 +93,9 @@ export const weapons = {
       damageTypes: ["piercing", "slashing", "bludgeoning"],
       description:
         "Spiked or weighted knuckles worn as a glove or held in hand. A master's damage scales like Unarmed Strike, and can catch an enemy's weapon mid-swing. The hand with the gauntlet cannot be used to wield other equipment. ",
-      untrained: ["one-handed", "melee d4", "affixed", "deflect"],
+      untrained: ["one handed", "melee d4", "affixed", "deflect"],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "affixed",
         "deflect",
@@ -104,7 +104,7 @@ export const weapons = {
         "nimble",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee (table)",
         "affixed",
         "deflect",
@@ -129,7 +129,7 @@ export const weapons = {
       description:
         "A mechanical means to instantly deploy a piercing dagger from under the wrist built into a bracer.  The master takes full advantage of a surprise attack, ending a life in an instant.",
       untrained: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "affixed",
         "awkward",
@@ -139,7 +139,7 @@ export const weapons = {
         "nimble",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "affixed",
         "conceal",
@@ -148,7 +148,7 @@ export const weapons = {
         "nimble",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "affixed",
         "conceal",
@@ -167,7 +167,7 @@ export const weapons = {
         "A generic term for clothing used to deflect, such as a thick wool cloak, silk scarf, or wide brimmed hat. While you may wear an interceptor, it must be equipped to be used but gives you +1 Shield AC when equipped. The master can catch missile weapons in flight, even protecting an ally",
       untrained: "You cannot wield an Interceptor while Untrained",
       basic: [
-        "one-handed",
+        "one handed",
         "affixed",
         "conceal",
         "deflect (d6)",
@@ -175,7 +175,7 @@ export const weapons = {
         "light",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "affixed",
         "conceal",
         "deflect (d8)",
@@ -195,7 +195,7 @@ export const weapons = {
       description:
         "A wide, leaf shaped blade mounted in line with the fist at the end of an H shaped handle. The katar is a unique punch weapon, and the master's speed and precision is unmatched",
       untrained: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "awkward",
         "conceal",
@@ -205,7 +205,7 @@ export const weapons = {
         "nimble",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "conceal",
         "finesse",
@@ -214,7 +214,7 @@ export const weapons = {
         "nimble",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "conceal",
         "finesse",
@@ -232,15 +232,15 @@ export const weapons = {
       description:
         "Designed much like brass knuckles, but with a blade that sweeps back toward the forearm, over the side of the fist. The knuckle axe resembles an axe head with no handle, and either 4 finger holes or a curved handle to rest inside a closed fist. Masters with knuckle axes slash through soft targets much like a real axe, attacking two targets at once. ",
       untrained: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "awkward",
         "finesse",
         "light",
         "keen",
       ],
-      basic: ["one-handed", "melee d6", "deflect", "finesse", "light", "keen"],
-      master: ["one-handed", "melee d6", "deflect", "finesse", "light", "keen"],
+      basic: ["one handed", "melee d6", "deflect", "finesse", "light", "keen"],
+      master: ["one handed", "melee d6", "deflect", "finesse", "light", "keen"],
       perk: "When you score a critical hit or reduce a target to 0hp, you may make an additional melee attack to another creature adjacent to you as part of the same action.",
     },
     {
@@ -250,9 +250,9 @@ export const weapons = {
       damageTypes: ["bludgeoning"],
       description:
         "Often called a Tonfa, Riot Baton, or Arm Club, this defensive weapon is designed to deflect attacks with the forearm. It is a stout club with a perpendicular handle attached a third of the way down the length, allowing it to be swung out for a swipe, or extend the reach of a thrust. A master uses the handle as a hook just effectively as an axe and maximizes the defensive properties of this weapon.",
-      untrained: ["one-handed", "melee d4", "light"],
-      basic: ["one-handed", "melee d6", "deflect", "light"],
-      master: ["one-handed", "melee d8", "deflect", "light", "trip"],
+      untrained: ["one handed", "melee d4", "light"],
+      basic: ["one handed", "melee d6", "deflect", "light"],
+      master: ["one handed", "melee d8", "deflect", "light", "trip"],
       perk: "Your deflect roll is d10, rather than d8, and you may add your proficiency to this roll.",
     },
     {
@@ -262,10 +262,10 @@ export const weapons = {
       damageTypes: ["bludgeoning"],
       description:
         "Untrained unarmed strikes are simple punches while Basic training teaches proper punches and kicks. However, a real master of unarmed strikes is as well trained as a traditional monk. A master's damage scales according to proficiency bonus on to the table below unless it is already higher. Your unarmed strikes don't count as weapon attacks until you have master training or have chosen the Unarmed Fighting style.",
-      untrained: ["one-handed", "melee d1", "awkward"],
-      basic: ["one-handed", "melee d4", "finesse", "nimble"],
+      untrained: ["one handed", "melee d1", "awkward"],
+      basic: ["one handed", "melee d4", "finesse", "nimble"],
       master: [
-        "one-handed",
+        "one handed",
         "melee (table)",
         "deflect",
         "disarm",
@@ -291,9 +291,9 @@ export const weapons = {
       damageTypes: ["slashing"],
       description:
         "An axe about 2ft-3ft in length, with a longer beard designed for a wider slashing wound. This weapon is large enough to use with two hands for more powerful strikes, yet nimble enough to be used in one hand. Masters with the battle axe are stout and reliable with their bit, and throw the axe with a large overhand pitch with both hands at the base of the handle.",
-      untrained: ["two-handed", "melee d8", "awkward"],
-      basic: ["one-handed", "melee d8", "trip", "versatile d10"],
-      master: ["one-handed", "melee d10", "trip", "versatile d12"],
+      untrained: ["two handed", "melee d8", "awkward"],
+      basic: ["one handed", "melee d8", "trip", "versatile d10"],
+      master: ["one handed", "melee d10", "trip", "versatile d12"],
       perk: " You may reroll any result of 1 or 2 on any damage die caused by this weapon or attachers. If you are wielding the Battle Axe with two hands, it gains Thrown d12 (20/60).",
     },
     {
@@ -303,9 +303,9 @@ export const weapons = {
       damageTypes: ["slashing"],
       description:
         "The classic barbarian axe, but which also includes more historical versions such as the bardiche, voulge, or Dane axe. The greataxe has incredible potential for damage, and the master greataxe wielder fells even the stoutest of foes with reliability not seen in many other weapon styles.",
-      untrained: ["two-handed", "melee d10", "awkward", "heavy"],
-      basic: ["two-handed", "melee d12", "disarm", "heavy", "trip"],
-      master: ["two-handed", "melee 2d8", "disarm", "heavy", "trip"],
+      untrained: ["two handed", "melee d10", "awkward", "heavy"],
+      basic: ["two handed", "melee d12", "disarm", "heavy", "trip"],
+      master: ["two handed", "melee 2d8", "disarm", "heavy", "trip"],
       perk: " When you score a mighty blow you can roll all damage and any attachers twice and take the better result. ",
     },
     {
@@ -315,10 +315,10 @@ export const weapons = {
       damageTypes: ["piercing", "slashing"],
       description:
         "An axe blade topped with a spike mounted on an 8ft long shaft, with a hook on the back side of the axe blade for pulling mounted combatants from the saddle. With at least Basic training, a halberd can be used to perform a trip against mounted foes to pull them from the saddle to a prone position, and the master has conquered this maneuver.",
-      untrained: ["two-handed", "melee d10", "awkward", "brace", "heavy"],
-      basic: ["two-handed", "melee 2d6", "brace", "heavy", "reach", "trip"],
+      untrained: ["two handed", "melee d10", "awkward", "brace", "heavy"],
+      basic: ["two handed", "melee 2d6", "brace", "heavy", "reach", "trip"],
       master: [
-        "two-handed",
+        "two handed",
         "melee 2d8",
         "brace",
         "entangle",
@@ -335,10 +335,10 @@ export const weapons = {
       damageTypes: ["slashing"],
       description:
         "An incredibly versatile weapon and tool, the hand axe can be thrown, or used in melee, and can be used to trip your foe, and the master binds and disarms with lightning efficiency. If you have a handaxe on your person, you may gain advantage on survival checks where the handaxe can be used to help, such as cutting firewood or putting up tents.",
-      untrained: ["one-handed", "melee d6", "thrown (10/30)"],
-      basic: ["one-handed", "melee d6", "thrown (20/60)", "light", "trip"],
+      untrained: ["one handed", "melee d6", "thrown (10/30)"],
+      basic: ["one handed", "melee d6", "thrown (20/60)", "light", "trip"],
       master: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "thrown (20/60)",
         "disarm",
@@ -354,9 +354,9 @@ export const weapons = {
       damageTypes: ["slashing"],
       description:
         "An exotic weapon made famous by the northern Chinese masters; a shortsword length weapon in which the tip forms a prominent hook, and which the knuckle guard features a crescent shaped blade. A hook sword can easily catch weapons and limbs, giving it superior control over an enemy's movements. The master can also join two hook swords together for a unique means of trapping and binding enemies, as well as striking further by forming a makeshift flail; letting go of one hook sword and swinging it by the hook of the other sword. Hooking the swords together, or unhooking and wielding them separately requires an object interaction. When you hook two hook swords together, your weapon gains Reach and loses Light. While wielded in this way, your hook swords count as one weapon instead of dual wielding two weapons.",
-      untrained: ["one-handed", "melee d6", "awkward"],
+      untrained: ["one handed", "melee d6", "awkward"],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "deflect",
         "disarm",
@@ -365,7 +365,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "deflect",
         "disarm",
@@ -384,9 +384,9 @@ export const weapons = {
       damageTypes: ["piercing", "slashing"],
       description:
         "This hybrid axe and sword was made famous by ancient Egyptians. It is a sword built with a large crescent shaped protrusion about one third from the tip, and a hooked tip, forming a sort of question mark shape. It acts similarly to a handaxe, but is lighter and can more reliably cut with a larger surface area. A Master with the Khopesh has learned to use the hooked point to hamstring enemies with ease.",
-      untrained: ["one-handed", "melee d8", "awkward", "disarm"],
-      basic: ["one-handed", "melee 2d4", "disarm", "keen", "light", "trip"],
-      master: ["one-handed", "melee 2d4", "disarm", "keen", "light", "trip"],
+      untrained: ["one handed", "melee d8", "awkward", "disarm"],
+      basic: ["one handed", "melee 2d4", "disarm", "keen", "light", "trip"],
+      master: ["one handed", "melee 2d4", "disarm", "keen", "light", "trip"],
       perk: " If you hit with a trip attack, your enemy's speed is reduced by 10ft until the end of their next turn. While they have this penalty, they suffer disadvantage to Strength saving throws. ",
     },
     {
@@ -397,7 +397,7 @@ export const weapons = {
       description:
         "An infantry weapon designed for use against armored foes, characterized by an axe on one side and a hammer on the other, tipped with a dagger-like spike from the top. It is typically on a 6 ft haft, shod with iron to protect it from damage. Though not long enough for a reach weapon, its style resembles that of a quarterstaff and axe combined. A master uses the weapon's iron shodding more actively, blocking attacks that would normally chop through the wood shaft.",
       untrained: [
-        "two-handed",
+        "two handed",
         "melee d10",
         "awkward",
         "heavy",
@@ -405,7 +405,7 @@ export const weapons = {
         "stagger",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "melee d10",
         "brace",
         "deflect",
@@ -416,7 +416,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "melee 2d6",
         "brace",
         "deflect",
@@ -435,9 +435,9 @@ export const weapons = {
       damageTypes: ["piercing", "slashing"],
       description:
         "Also called a fransisca, this small axe features a slimmer blade more balanced for throwing, and an opposing spike or small hammer so both sides of the weapon were dangerous in flight. Tomahawks are balanced for throwing further distances than any other axe, and the master throws them with great force, using the hammer or spike's weight to drive the thinner axe head deeper into a target and throw them off balance or strike their arm mid swing.",
-      untrained: ["one-handed", "melee d4", "awkward", "thrown (10/30)"],
+      untrained: ["one handed", "melee d4", "awkward", "thrown (10/30)"],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "thrown (40/120)",
         "finesse",
@@ -445,7 +445,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "thrown (40/120)",
         "disarm",
@@ -464,9 +464,9 @@ export const weapons = {
       damageTypes: ["bludgeoning"],
       description:
         "A simple, heavy, two-handed club, though it can be refined like the Japanese Tetsubo. A master of the greatclub can render a weapon nearly useless by smashing it bent or broken.",
-      untrained: ["two-handed", "melee d8", "heavy", "stagger"],
+      untrained: ["two handed", "melee d8", "heavy", "stagger"],
       basic: [
-        "two-handed",
+        "two handed",
         "melee d8",
         "disarm",
         "penetrate",
@@ -474,7 +474,7 @@ export const weapons = {
         "stagger",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "melee d10",
         "deflect",
         "disarm",
@@ -491,9 +491,9 @@ export const weapons = {
       damageTypes: ["bludgeoning"],
       description:
         "A larger mass weapon, much like a bat or ball mace. A master can target the foe's head more easily, disorienting and disabling their foes with a wound-up swing for the fences.",
-      untrained: ["two-handed", "melee d6"],
-      basic: ["one-handed", "melee d6", "versatile 2d4", "thrown (20/40)"],
-      master: ["one-handed", "melee 2d4", "versatile d10", "thrown (20/40)"],
+      untrained: ["two handed", "melee d6"],
+      basic: ["one handed", "melee d6", "versatile 2d4", "thrown (20/40)"],
+      master: ["one handed", "melee 2d4", "versatile d10", "thrown (20/40)"],
       perk: " If you score a mighty blow, your enemy must succeed on a Constitution saving throw or suffer disadvantage to all attacks and ability checks until the end of its next turn. ",
     },
     {
@@ -503,9 +503,9 @@ export const weapons = {
       damageTypes: ["bludgeoning"],
       description:
         "A simple sap or a metal bar, many clubs used for combat are designed to be thrown. Some light clubs are designed for policing, intended to be less-than-lethal, while others can be shorn in spikes or sharpened rings with a broad spiked tip. A master is extremely accurate at a foe's head to knock them off balance.",
-      untrained: ["one-handed", "melee d4", "conceal", "finesse", "light"],
+      untrained: ["one handed", "melee d4", "conceal", "finesse", "light"],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "conceal",
         "thrown (20/60)",
@@ -513,7 +513,7 @@ export const weapons = {
         "light",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "conceal",
         "thrown (40/80)",
@@ -529,9 +529,9 @@ export const weapons = {
       damageTypes: ["piercing", "bludgeoning"],
       description:
         "A stout, arm length iron bar lined with spikes or flanges, more able to utilize prying leverage to deal with armored foes. Designed for low skilled military soldiers, a master uses the many angles to pry weapons from enemy's hands.",
-      untrained: ["two-handed", "melee d6", "disarm"],
-      basic: ["one-handed", "melee d8", "disarm"],
-      master: ["one-handed", "melee d8", "deflect", "disarm"],
+      untrained: ["two handed", "melee d6", "disarm"],
+      basic: ["one handed", "melee d8", "disarm"],
+      master: ["one handed", "melee d8", "deflect", "disarm"],
       perk: " When you score an powerful blow, you can choose to deal damage equal to your Strength modifier, but force your enemy to suffer disadvantage to attacks. At the end of their turn they can roll a Constitution saving throw, ending this penalty on success. ",
     },
     {
@@ -541,9 +541,9 @@ export const weapons = {
       damageTypes: ["slashing", "bludgeoning"],
       description:
         "A metal head with bladed protrusions, attached to a simple shaft designed specifically to hammer and shred armor. Masters punch through any armor to damage  foes with ease.",
-      untrained: ["one-handed", "melee d6", "sunder"],
-      basic: ["one-handed", "melee d6", "penetrate", "sunder"],
-      master: ["one-handed", "melee 2d4", "penetrate", "sunder"],
+      untrained: ["one handed", "melee d6", "sunder"],
+      basic: ["one handed", "melee d6", "penetrate", "sunder"],
+      master: ["one handed", "melee 2d4", "penetrate", "sunder"],
       perk: " Your penetrate affects creatures with an AC of 12 or greater. If you score an powerful blow, your weapon sunders automatically. ",
     },
     {
@@ -553,9 +553,9 @@ export const weapons = {
       damageTypes: ["bludgeoning"],
       description:
         "Typically a crafter's tool, consisting of a shallow cylinder on a short handle. The lighter, faster bludgeon takes unique opportunities that other bludgeons would miss. A master uses the lightness of a mallet for a quick strike that sends the enemy reeling.",
-      untrained: ["one-handed", "melee d4", "light"],
-      basic: ["one-handed", "melee d4", "thrown (20/60)", "disarm", "light"],
-      master: ["one-handed", "melee d6", "thrown (20/60)", "disarm", "light"],
+      untrained: ["one handed", "melee d4", "light"],
+      basic: ["one handed", "melee d4", "thrown (20/60)", "disarm", "light"],
+      master: ["one handed", "melee d6", "thrown (20/60)", "disarm", "light"],
       perk: "If you choose the attack action, as a bonus action, you can make a shove attempt which, if successful, deals this weapon's damage. ",
     },
     {
@@ -565,9 +565,9 @@ export const weapons = {
       damageTypes: ["piercing", "bludgeoning"],
       description:
         "An infantry weapon in the form of a thick wooden shaft up to 8 feet in length, slightly fluted toward the top, with a spiked head and topped with a stout iron spike. This reach weapon gives infantry an advantage against armored opponents without needing to learn advanced techniques, enabling simple militias to protect themselves from armor. A master with a morning star can absolutely ruin armor, rendering it less effective for its wearer.",
-      untrained: ["two-handed", "melee d8", "brace", "reach", "sunder"],
+      untrained: ["two handed", "melee d8", "brace", "reach", "sunder"],
       basic: [
-        "two-handed",
+        "two handed",
         "melee d10",
         "brace",
         "penetrate",
@@ -575,7 +575,7 @@ export const weapons = {
         "sunder",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "melee d12",
         "brace",
         "double ended d4",
@@ -592,10 +592,10 @@ export const weapons = {
       damageTypes: ["bludgeoning"],
       description:
         "The Japanese bo is a much smaller and thinner version of the quarterstaff, and the result is a much faster fighting style, devoted to quick successive strikes and acrobatic lunges. The master can turn one opening into a strike for two and has learned to deflect even powerful blows with a simple wooden stick.",
-      untrained: ["two-handed", "melee d6", "finesse"],
-      basic: ["two-handed", "melee d6", "double ended d4", "finesse", "trip"],
+      untrained: ["two handed", "melee d6", "finesse"],
+      basic: ["two handed", "melee d6", "double ended d4", "finesse", "trip"],
       master: [
-        "two-handed",
+        "two handed",
         "melee d6",
         "double ended d6",
         "finesse",
@@ -612,10 +612,10 @@ export const weapons = {
       damageTypes: ["bludgeoning"],
       description:
         "A quarterstaff is a heavier, thicker staff, meant for more weight and power in blocking than quick strikes in succession. Sometimes shod in iron, this staff provides increased protection for the master, able to use its shodding and length to provide a more stable means of defense.",
-      untrained: ["two-handed", "melee d6"],
-      basic: ["two-handed", "melee d8", "double ended d6", "trip"],
+      untrained: ["two handed", "melee d6"],
+      basic: ["two handed", "melee d8", "double ended d6", "trip"],
       master: [
-        "two-handed",
+        "two handed",
         "melee d8",
         "double ended d8",
         "reach",
@@ -633,16 +633,16 @@ export const weapons = {
       damageTypes: ["piercing", "slashing"],
       description:
         "Two curved blades affixed to longbow length limbs. Though not nearly as stout as a quarterstaff due to the flexibility of the bow itself, it is nonetheless an effective way to fight the close enemy. The bladed bow is very specialized and requires dedicated training to be anything but clumsy but in the hands of a master, the blade bow can protect a retreat as easily as it can press a melee attack.",
-      untrained: ["two-handed", "ranged d8 (100/500)", "awkward", "heavy"],
+      untrained: ["two handed", "ranged d8 (100/500)", "awkward", "heavy"],
       basic: [
-        "two-handed",
+        "two handed",
         "ranged d8 (120/600)",
         "melee d6",
         "finesse",
         "heavy",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "ranged d8 (120/600)",
         "melee d6",
         "double ended d6",
@@ -659,19 +659,19 @@ export const weapons = {
       description:
         "About the size of a shortbow, but has two pulleys on the limbs which allow the user to load exponentially more force. Because of the added mechanical aspect, loading is a bit slower than loading other bows, but its stopping power punches like a crossbow. A master can overdraw the pulleys to punch through targets like a crossbow.",
       untrained: [
-        "two-handed",
+        "two handed",
         "ranged d10 (100/500)",
         "awkward",
         "puncture",
         "reload reaction",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "ranged d10 (200/800)",
         "puncture",
         "reload object interaction",
       ],
-      master: ["two-handed", "ranged d12 (200/800)", "puncture", "reload free"],
+      master: ["two handed", "ranged d12 (200/800)", "puncture", "reload free"],
       perk: " When you score an powerful blow, you deal normal damage to your primary target and weapon damage to one other target in a straight line from you that intersects your first target, as long as your attack roll would hit your second target's AC as well. ",
     },
     {
@@ -682,21 +682,21 @@ export const weapons = {
       description:
         "Much taller and stouter than the longbow, easily reaching 6ft-8ft in length and as thick as a quarterstaff. It launches specialized great arrows that are similar in size to a javelin. Due to its size, javelins and ballista bolts can be used as ammunition, but with disadvantage to the attack roll. Greatbow masters can overdraw the stout poundage, sending enemies flying back. You must have a Strength score of at least 13 to wield a Greatbow.",
       untrained: [
-        "two-handed",
+        "two handed",
         "ranged d10 (100/500)",
         "awkward",
         "heavy",
         "penetrate",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "ranged d10 (200/800)",
         "heavy",
         "penetrate",
         "trip",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "ranged d12 (200/800)",
         "heavy",
         "penetrate",
@@ -711,9 +711,9 @@ export const weapons = {
       damageTypes: ["piercing"],
       description:
         "A larger bow than the shortbow, consisting of 5ft-6ft limbs, thick sinew cording bowstring, and a longer powerstroke. Perhaps a bit cumbersome in close combat and atop a mount, even so, a master archer steadies their aim in any situation, ignoring distractions which may impede accuracy.",
-      untrained: ["two-handed", "ranged d8 (100/500)", "awkward", "heavy"],
-      basic: ["two-handed", "ranged d8 (120/600)", "heavy"],
-      master: ["two-handed", "ranged d10 (120/600)", "heavy"],
+      untrained: ["two handed", "ranged d8 (100/500)", "awkward", "heavy"],
+      basic: ["two handed", "ranged d8 (120/600)", "heavy"],
+      master: ["two handed", "ranged d10 (120/600)", "heavy"],
       perk: " If you suffer disadvantage for any reason, you can use your bonus action to negate your disadvantage until the end of your turn. You no longer suffer disadvantage to attacks made beyond normal range.",
     },
     {
@@ -723,9 +723,9 @@ export const weapons = {
       damageTypes: ["piercing"],
       description:
         "Usually shorter, in the 3ft-4ft range, but with a longer power stroke than a shortbow of its size. Each limb curves away from the wielder at its ends, effectively loading twice the elastic power into the arrow. Due to the shorter overall size but higher draw, the master can load an extra arrow into the recurve and attack two different targets.",
-      untrained: ["two-handed", "ranged d8 (60/240)"],
-      basic: ["two-handed", "ranged d8 (80/320)"],
-      master: ["two-handed", "ranged 2d4 (80/320)"],
+      untrained: ["two handed", "ranged d8 (60/240)"],
+      basic: ["two handed", "ranged d8 (80/320)"],
+      master: ["two handed", "ranged 2d4 (80/320)"],
       perk: " You can loose two arrows at once with the same power. Once on each of your turns when you make a recurve attack, you can make another recurve attack against a different creature that is within 5 feet of the original target and within normal range.  ",
     },
     {
@@ -735,9 +735,9 @@ export const weapons = {
       damageTypes: ["piercing"],
       description:
         "A simple bow about 3ft in length, more suited to close combat, as its smaller size lends itself to agile movement and quick targeting on either side of the body. Masters with the shortbow can make snap shots as quickly as any swordsman reacts to an opening.",
-      untrained: ["two-handed", "ranged d6 (60/240)"],
-      basic: ["two-handed", "ranged d6 (80/320)"],
-      master: ["two-handed", "ranged d8 (80/320)", "hipshot"],
+      untrained: ["two handed", "ranged d6 (60/240)"],
+      basic: ["two handed", "ranged d6 (80/320)"],
+      master: ["two handed", "ranged d8 (80/320)", "hipshot"],
       perk: " You may use your reaction to make a ranged opportunity attack when an enemy enters or exits a 5ft radius around you.   ",
     },
     {
@@ -748,14 +748,14 @@ export const weapons = {
       description:
         "A simple leather cup swung about the body to release a stone with circular momentum. You can launch anything that can fit in the cup; bombs, potions, poisons, even rounded stones, but do so with -1 to the attack. You may also put something into the sling and make a melee attack with it, swinging the weapon like a flail. A master maximizes their power in the throw, and can disable and disorient an enemy with precise shots to the head.",
       untrained: [
-        "one-handed",
+        "one handed",
         "conceal",
         "ranged d4 (30/120)",
         "reload object interaction",
         "light",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "ranged d4 (60/180)",
         "reload free",
@@ -764,7 +764,7 @@ export const weapons = {
         "light",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "ranged d6 (60/180)",
         "reload free",
@@ -783,16 +783,16 @@ export const weapons = {
       damageTypes: ["slashing", "bludgeoning"],
       description:
         "Instead of gathering circular momentum, this slingshot uses elastic material to launch anything a sling can without the penalty. A wrist shot is a favorite of smaller folk, more easily able to conceal the weapon and able to make use of ranged attacks with smaller arms and generally weaker stature. Masters with wrist shots can target weak points and make it easier for their allies to land critical blows.",
-      untrained: ["two-handed", "ranged d4 (40/160)", "conceal", "hipshot"],
+      untrained: ["two handed", "ranged d4 (40/160)", "conceal", "hipshot"],
       basic: [
-        "two-handed",
+        "two handed",
         "ranged d4 (40/160)",
         "conceal",
         "disarm",
         "hipshot",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "ranged d6 (40/160)",
         "conceal",
         "disarm",
@@ -810,9 +810,9 @@ export const weapons = {
       damageTypes: ["piercing", "slashing"],
       description:
         "The child of the Longsword and the Greatsword, a weapon in length between the two that combines both styles. A master deals greater damage against larger targets like the Greatsword, with deft precision of the tip much like a Longsword.",
-      untrained: ["two-handed", "melee d10", "awkward", "heavy"],
-      basic: ["two-handed", "melee d12", "heavy"],
-      master: ["one-handed", "melee d12", "heavy", "versatile 2d8"],
+      untrained: ["two handed", "melee d10", "awkward", "heavy"],
+      basic: ["two handed", "melee d12", "heavy"],
+      master: ["one handed", "melee d12", "heavy", "versatile 2d8"],
       perk: " Your critical hit range is 19-20 while wielding with two hands, unless it is 18-20. Against category size Large and larger enemies, your damage is 2d8(2d10) instead of d12(2d8).,",
     },
     {
@@ -822,9 +822,9 @@ export const weapons = {
       damageTypes: ["piercing", "slashing"],
       description:
         "True broadswords have a wider blade to add power to the cut, and often perform more like an axe in the strike. Examples include the  messer, cleaver sword, or Chinese dadao. A master strikes through soft targets, driving their momentum to other targets.",
-      untrained: ["one-handed", "melee d8", "awkward"],
-      basic: ["one-handed", "melee 2d4", "penetrate"],
-      master: ["one-handed", "melee 3d4", "keen", "penetrate"],
+      untrained: ["one handed", "melee d8", "awkward"],
+      basic: ["one handed", "melee 2d4", "penetrate"],
+      master: ["one handed", "melee 3d4", "keen", "penetrate"],
       perk: " When you score a critical hit or reduce a target to 0 hit points, you can make another attack to another target within 5ft, as part of the same action. This effect can happen multiple times as long as the criteria are met.",
     },
     {
@@ -834,9 +834,9 @@ export const weapons = {
       damageTypes: ["piercing", "slashing"],
       description:
         "Often as tall as its wielder, spanning in the 5ft-6ft range with a 2ft handle and a lengthy, wide blade. The long blade, lengthy handle, and added weight make the greatsword one of the most damaging melee weapons in use, and can easily dispatch larger targets with ease.  A master finds the greatest weapon to use against a large enemy is the greatsword.",
-      untrained: ["two-handed", "melee 2d6", "awkward", "heavy"],
-      basic: ["two-handed", "melee 2d8", "heavy"],
-      master: ["two-handed", "melee 2d10", "heavy"],
+      untrained: ["two handed", "melee 2d6", "awkward", "heavy"],
+      basic: ["two handed", "melee 2d8", "heavy"],
+      master: ["two handed", "melee 2d10", "heavy"],
       perk: " Against category size Large and larger targets, your damage is 2d12, instead of 2d10. ,",
     },
     {
@@ -846,10 +846,10 @@ export const weapons = {
       damageTypes: ["piercing", "slashing"],
       description:
         "A cusped falchion is slightly different from the broadsword from which it is descended. The straight blade with a curved tip and longer length was a later period design but iconic in appearance. This falchion exists as the two handed version of the broadsword. A master maximizes the falchion's cutting power, striking soft targets with critical accuracy.",
-      untrained: ["two-handed", "melee d8", "awkward"],
-      basic: ["two-handed", "melee d10", "disarm", "penetrate"],
+      untrained: ["two handed", "melee d8", "awkward"],
+      basic: ["two handed", "melee d10", "disarm", "penetrate"],
       master: [
-        "one-handed",
+        "one handed",
         "melee d10",
         "disarm",
         "penetrate",
@@ -865,9 +865,9 @@ export const weapons = {
       damageTypes: ["piercing", "slashing"],
       description:
         "A Japanese single edged blade, slightly curved with a minimal guard and a long handle. The longer handle and curved edge provide greater leverage for more effective deflections. A master deflects even powerful blows with ease.",
-      untrained: ["two-handed", "melee d6", "awkward"],
+      untrained: ["two handed", "melee d6", "awkward"],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "finesse",
         "keen",
@@ -875,7 +875,7 @@ export const weapons = {
         "versatile d8",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d8",
         "deflect",
         "finesse",
@@ -892,10 +892,10 @@ export const weapons = {
       damageTypes: ["piercing", "slashing"],
       description:
         "A multipurpose sword with a wide guard for dueling, heavy pommel for balance, and a fine, rapier point. Generally a hand and a half handle, this sword is favored by spellblades for its ease of use in one hand or two. Masters become devastatingly accurate, standing up to even master duelists.",
-      untrained: ["two-handed", "melee d8", "awkward"],
-      basic: ["one-handed", "melee d8", "balanced", "disarm", "versatile d10"],
+      untrained: ["two handed", "melee d8", "awkward"],
+      basic: ["one handed", "melee d8", "balanced", "disarm", "versatile d10"],
       master: [
-        "one-handed",
+        "one handed",
         "melee d10",
         "balanced",
         "disarm",
@@ -910,9 +910,9 @@ export const weapons = {
       damageTypes: ["piercing", "slashing"],
       description:
         "A type of greatsword made famous by western Europeans, prized for its reach and seen as the perfect weapon against multiple assailants. It is similar in length to a polearm, has similar reach and can even use similar techniques thanks to a smaller handle above the crossguard called a ricasso, and forward parrying hooks for easy defense without ever exposing one's hands. The master has learned the famous protection technique, keeping an ally safe with expert application of refined angles and parries.",
-      untrained: ["two-handed", "melee 2d6", "awkward", "heavy"],
-      basic: ["two-handed", "melee 2d6", "balanced", "heavy", "reach"],
-      master: ["two-handed", "melee 3d6", "balanced", "heavy", "reach"],
+      untrained: ["two handed", "melee 2d6", "awkward", "heavy"],
+      basic: ["two handed", "melee 2d6", "balanced", "heavy", "reach"],
+      master: ["two handed", "melee 3d6", "balanced", "heavy", "reach"],
       perk: " On your turn, you can use your reaction to enter a protective stance, choosing to protect one ally within your reach. Until the start of your next turn, all attacks that target this ally suffer disadvantage. This protection lasts until the start of your next turn.  ,",
     },
     {
@@ -922,9 +922,9 @@ export const weapons = {
       damageTypes: ["slashing"],
       description:
         "A single-handed curved sword, similar in dimension to the longsword but with a single-handed handle and generally more weight in the blade than the pommel.  But, unlike the longsword, the scimitar gets its agility from being single handed and its power from a curved, tip heavy blade. The master makes full use of a charge to make sweeping draw cuts that can devastate a waiting enemy.",
-      untrained: ["one-handed", "melee d6", "awkward"],
-      basic: ["one-handed", "melee d6", "deflect", "finesse", "light"],
-      master: ["one-handed", "melee d8", "deflect", "keen", "finesse", "light"],
+      untrained: ["one handed", "melee d6", "awkward"],
+      basic: ["one handed", "melee d6", "deflect", "finesse", "light"],
+      master: ["one handed", "melee d8", "deflect", "keen", "finesse", "light"],
       perk: " If you travel at least 20ft or are mounted, your next attack's damage deals an additional d8 damage. ",
     },
     {
@@ -934,10 +934,10 @@ export const weapons = {
       damageTypes: ["piercing", "slashing"],
       description:
         "A glaive weapon with a shorter handle, usually in the range of length of a greatsword, but much lighter as the metal blade is smaller and more than half of the weapon is wooden haft. A short glaive is favored among elven armies as an effective long weapon that is both heavy hitting and light enough to use with finesse. Masters are lightning fast, quickly taking advantage of a miss to make an offensive opening.",
-      untrained: ["two-handed", "melee 2d4", "awkward"],
-      basic: ["two-handed", "melee 2d4", "balanced", "finesse", "lunge"],
+      untrained: ["two handed", "melee 2d4", "awkward"],
+      basic: ["two handed", "melee 2d4", "balanced", "finesse", "lunge"],
       master: [
-        "two-handed",
+        "two handed",
         "melee 3d4",
         "balanced",
         "brace",
@@ -956,14 +956,14 @@ export const weapons = {
       description:
         "A tube used to launch a needle dart with your breath. The dart is small and silent, and if you make an attack from stealth and miss, your location is not revealed. A master uses the art of the flying viper, shooting two darts at once and reloading with a single hand.",
       untrained: [
-        "one-handed",
+        "one handed",
         "ranged d1 (25/40)",
         "reload free",
         "hipshot",
         "keen",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "ranged d2 (25/100)",
         "reload free",
         "light",
@@ -971,7 +971,7 @@ export const weapons = {
         "keen",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "ranged d2 (25/100)",
         "light",
         "reload free",
@@ -989,7 +989,7 @@ export const weapons = {
       description:
         "A hand drawn bow on a pistol grip, these prods are weaker than other crossbows, but the drawstring can be pulled back without mechanical assistance. A master reloads one-handed, using the bolt case to draw and load in one motion.",
       untrained: [
-        "one-handed",
+        "one handed",
         "ranged d6+2 (20/60)",
         "light",
         "reload object interaction",
@@ -997,7 +997,7 @@ export const weapons = {
         "keen",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "ranged d6+2 (30/120)",
         "light",
         "reload free",
@@ -1005,7 +1005,7 @@ export const weapons = {
         "keen",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "ranged d6+2 (30/120)",
         "light",
         "reload free",
@@ -1022,7 +1022,7 @@ export const weapons = {
       description:
         "A large crossbow with steel prods, loading over a thousand pounds of force. A master arbalist has become deadly accurate with their bolt, maximizing their sniper potential.",
       untrained: [
-        "two-handed",
+        "two handed",
         "ranged d10+4 (50/200)",
         "heavy",
         "keen",
@@ -1031,7 +1031,7 @@ export const weapons = {
         "reload attack",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "ranged d10+4 (100/400)",
         "heavy",
         "keen",
@@ -1041,7 +1041,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "ranged d10+4 (100/400)",
         "heavy",
         "keen",
@@ -1060,7 +1060,7 @@ export const weapons = {
       description:
         "This wrist-mount is similar to a hidden blade, deploying in secret with one hand. The small mechanism can be pulled back by hooking it onto the needle case to reload one-handed. The master can shoot in melee at the slightest distraction.",
       untrained: [
-        "one-handed",
+        "one handed",
         "ranged d4+1 (10/30)",
         "reload reaction",
         "affixed",
@@ -1070,7 +1070,7 @@ export const weapons = {
         "light",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "ranged d4+1 (20/40)",
         "reload object interaction",
         "affixed",
@@ -1079,7 +1079,7 @@ export const weapons = {
         "light",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "ranged d4+1 (30/60)",
         "reload free",
         "affixed",
@@ -1097,21 +1097,21 @@ export const weapons = {
       description:
         "A simple wooden crossbow drawn by pulling a lever. A master can move and shoot reflexively at moving targets.",
       untrained: [
-        "two-handed",
+        "two handed",
         "ranged d8+3 (40/200)",
         "reload bonus",
         "keen",
         "penetrate",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "ranged d8+3 (80/320)",
         "reload reaction",
         "keen",
         "penetrate",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "ranged d8+3 (80/320)",
         "reload object interaction",
         "keen",
@@ -1127,7 +1127,7 @@ export const weapons = {
       description:
         "Two bows mounted in an X shape to a tiller which holds three bolts. Even with four prods, the bolts fly with less power than a hand crossbow and don’t group well at distance, but have incredible stopping power up close. Masters group the bolts at weak points with devastating effect. Because the bolts spread over distance, the damage is only 1d4+1 on medium or smaller size targets outside normal range, as only the top bolt is on target. All three bolts hit Large and larger creatures at any range.",
       untrained: [
-        "two-handed",
+        "two handed",
         "ranged 3d4+3 (20/50)",
         "reload attack",
         "awkward",
@@ -1136,7 +1136,7 @@ export const weapons = {
         "puncture",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "ranged 3d4+3 (30/60)",
         "reload bonus",
         "hipshot",
@@ -1144,7 +1144,7 @@ export const weapons = {
         "puncture",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "ranged 3d4+3 (40/80)",
         "reload reaction",
         "hipshot",
@@ -1161,7 +1161,7 @@ export const weapons = {
       description:
         "This small siege weapon is slow to reload with an enormous crannequin but the punch is worth the wait. Masters use flanking surfaces to pin a target with the launched javelin. A deployable stand can be purchased for 150g. As an action, you mount the ballista to the stand. While mounted, its reload is an object interaction, but you cannot move it until you use another action to unmount it.",
       untrained: [
-        "two-handed",
+        "two handed",
         "ranged d12+5 (150/400)",
         "awkward",
         "entangle",
@@ -1173,7 +1173,7 @@ export const weapons = {
         "trip",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "ranged 2d6+5 (150/600)",
         "heavy",
         "entangle",
@@ -1184,7 +1184,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "ranged 3d6+5 (150/600)",
         "heavy",
         "entangle",
@@ -1204,7 +1204,7 @@ export const weapons = {
       description:
         "This gnomish invention launches discus blades with internal mechanisms instead of prods. It holds ten blades, reloading for free by pulling the level located at the back of the weapon. When depleted, you must spend an action to reload ten more. Masters can attack several targets at once by expertly planning their ricochet path.",
       untrained: [
-        "two-handed",
+        "two handed",
         "ranged 2d4 (20/60)",
         "reload free",
         "awkward",
@@ -1212,14 +1212,14 @@ export const weapons = {
         "hipshot",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "ranged 2d4 (30/120)",
         "reload free",
         "disarm",
         "hipshot",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "ranged 2d4 (30/120)",
         "reload free",
         "disarm",
@@ -1236,9 +1236,9 @@ export const weapons = {
       damageTypes: ["piercing", "slashing"],
       description:
         "Any forearm length blade can be called a dagger, and there are as many designs as there are cultures in existence. The master can make lightning fast attacks even while they focus their attention elsewhere.",
-      untrained: ["one-handed", "melee d4", "balanced", "finesse", "light"],
+      untrained: ["one handed", "melee d4", "balanced", "finesse", "light"],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "conceal",
         "balanced",
@@ -1247,7 +1247,7 @@ export const weapons = {
         "thrown (20/60)",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "conceal",
         "balanced",
@@ -1265,7 +1265,7 @@ export const weapons = {
       description:
         "A variation of the longsword, this two handed thrusting weapon often had no cutting edge but a needle-like tip, called a tuck or a panzerstecher. The estoc was perfect for piercing mail and plate armor, making it prized among masters who leverage both arms to punching armor.",
       untrained: [
-        "two-handed",
+        "two handed",
         "melee d8",
         "awkward",
         "brace",
@@ -1274,7 +1274,7 @@ export const weapons = {
         "puncture",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "melee d8",
         "brace",
         "finesse",
@@ -1282,7 +1282,7 @@ export const weapons = {
         "puncture",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "melee d10",
         "brace",
         "finesse",
@@ -1300,9 +1300,9 @@ export const weapons = {
       damageTypes: ["slashing"],
       description:
         "A thick, hooked blade with a cutting edge on the inside, performing more like a handaxe than a dagger. The wing shape flies somewhat like a boomerang, and the master uses its forward curve to hamstring enemies.",
-      untrained: ["one-handed", "melee d6", "keen", "light", "thrown (20/60)"],
+      untrained: ["one handed", "melee d6", "keen", "light", "thrown (20/60)"],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "finesse",
         "keen",
@@ -1311,7 +1311,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "disarm",
         "finesse",
@@ -1329,10 +1329,10 @@ export const weapons = {
       damageTypes: ["piercing", "slashing"],
       description:
         "A thin, tapered sword with a wide guard and extra weight in the handle for maximum control with the tip, prized as the pinnacle of finesse. Rapier masters are unmatched duelists with perfect reach and riposte.",
-      untrained: ["one-handed", "melee d6", "awkward"],
-      basic: ["one-handed", "melee d8", "finesse", "puncture"],
+      untrained: ["one handed", "melee d6", "awkward"],
+      basic: ["one handed", "melee d8", "finesse", "puncture"],
       master: [
-        "one-handed",
+        "one handed",
         "melee d8",
         "finesse",
         "light",
@@ -1348,10 +1348,10 @@ export const weapons = {
       damageTypes: ["piercing", "slashing"],
       description:
         "Slightly curved, single-edged, one-handed weapons often with a basket hilt, allowing expert deflections off the curve. The master's defensive capabilities with the saber are unmatched among dueling blades.",
-      untrained: ["one-handed", "melee d6", "awkward"],
-      basic: ["one-handed", "melee d8", "deflect", "finesse", "keen"],
+      untrained: ["one handed", "melee d6", "awkward"],
+      basic: ["one handed", "melee d8", "deflect", "finesse", "keen"],
       master: [
-        "one-handed",
+        "one handed",
         "melee 2d4",
         "deflect",
         "finesse",
@@ -1367,9 +1367,9 @@ export const weapons = {
       damageTypes: ["piercing"],
       description:
         "A dagger sized weapon made famous in Okinawa, consisting of a sharpened metal rod with two forward swept prongs as a guard, making it easy to block and trap enemy weapons. The master parries and disarms in an instant with the prongs.",
-      untrained: ["one-handed", "melee d4", "awkward", "light", "nimble"],
+      untrained: ["one handed", "melee d4", "awkward", "light", "nimble"],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "conceal",
         "deflect",
@@ -1378,7 +1378,7 @@ export const weapons = {
         "nimble",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "conceal",
         "deflect",
@@ -1396,9 +1396,9 @@ export const weapons = {
       damageTypes: ["piercing", "slashing"],
       description:
         "Much like daggers, there are as many shortswords in the world as there are cultures who produced them. In general, they describe swords between 2ft-3ft in length, one-handed hilts, double or single edged and with a stabbing or curved point. Examples include weapons like a seax, cutlass, gladius, kopis, machetes, among many others. Their wide and varied designs mean that a master can find the perfect form for their style.",
-      untrained: ["one-handed", "melee d6", "balanced", "finesse", "light"],
-      basic: ["one-handed", "melee d6", "balanced", "finesse", "light"],
-      master: ["one-handed", "melee d8", "balanced", "finesse", "light"],
+      untrained: ["one handed", "melee d6", "balanced", "finesse", "light"],
+      basic: ["one handed", "melee d6", "balanced", "finesse", "light"],
+      master: ["one handed", "melee d8", "balanced", "finesse", "light"],
       perk: " When you have advantage on the attack, you can roll damage twice and take the better result, including any attachers. Additionally, this weapon's balanced property applies to attachers. ",
     },
     {
@@ -1409,7 +1409,7 @@ export const weapons = {
       description:
         "A crescent-shaped blade derived from a farming tool with the cutting edge on the inside. While not originally intended for dueling, a variety of dueling styles were developed by peoples needing to protect themselves with what they had. A master with the sickle has learned to grab with every attack and hamstring with the reaping curve.",
       untrained: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "light",
         "keen",
@@ -1417,7 +1417,7 @@ export const weapons = {
         "trip",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "entangle",
         "light",
@@ -1426,7 +1426,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "entangle",
         "light",
@@ -1443,10 +1443,10 @@ export const weapons = {
       damageTypes: ["piercing"],
       description:
         "A needle-like blade with a narrow profile and a fine tip, often given a dome shaped guard to protect the hands while thrusting. The smallsword can fit between any gaps in rings or between plates in armor, making it a serious threat to even the most armored in the hands of a duelist. The master has such control and poise that any distraction or detriment can be ignored with enough focus on the target.",
-      untrained: ["one-handed", "melee d6", "awkward", "finesse"],
-      basic: ["one-handed", "melee d6", "finesse", "light", "penetrate"],
+      untrained: ["one handed", "melee d6", "awkward", "finesse"],
+      basic: ["one handed", "melee d6", "finesse", "light", "penetrate"],
       master: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "finesse",
         "light",
@@ -1465,7 +1465,7 @@ export const weapons = {
       description:
         "A muzzle loaded long musket that fires lead balls. As a bonus action, you can set the weapon into the monopod, removing disadvantage for attack rolls at long range. As a bonus action, you arm the bayonet, giving the weapon Melee d12, but you suffer disadvantage with all ranged attacks. A master primes the bayonet as quickly as drawing a sword, and uses the arquebus like a pike.",
       untrained: [
-        "two-handed",
+        "two handed",
         "ranged 2d10+5 (300/900)",
         "awkward",
         "firearm",
@@ -1475,7 +1475,7 @@ export const weapons = {
         "reload action",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "ranged 2d10+5 (300/900)",
         "firearm",
         "heavy",
@@ -1484,7 +1484,7 @@ export const weapons = {
         "reload attack",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "ranged 2d12+5 (300/900)",
         "firearm",
         "heavy",
@@ -1502,7 +1502,7 @@ export const weapons = {
       description:
         "A flared, muzzle loaded, short musket which uses a load of small pellets called shot. If an enemy is within 5ft of you, the weapon gains Penetrate. If two targets are within 5ft of one another and at least 30ft away from you, you can attack both targets as part of the same attack. A master overpacks the weapon to blast foes to the ground.",
       untrained: [
-        "two-handed",
+        "two handed",
         "ranged 2d8+5 (40/60)",
         "reload action",
         "awkward",
@@ -1511,7 +1511,7 @@ export const weapons = {
         "trip",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "ranged 2d8+5 (40/60)",
         "reload attack",
         "firearm",
@@ -1519,7 +1519,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "ranged 2d10+5 (40/60)",
         "reload attack",
         "firearm",
@@ -1536,7 +1536,7 @@ export const weapons = {
       description:
         "This hollow-tipped lance is packed with gunpowder normally, but can be filled with other substances, such as poison, acid, or even alchemist fire. You squeeze a plunger to release the contents or ignite the gunpowder. The ranged attack is a 15ft cone, attacking all targets caught in the blast, but only one target you choose takes your ability modifier in damage. A master sweeps the fire in an arc, spreading the contents in a tight ring, aiming the blast of smoke and soot at the enemy's face.",
       untrained: [
-        "two-handed",
+        "two handed",
         "ranged d8 (15ft cone)",
         "melee d8",
         "awkward",
@@ -1544,14 +1544,14 @@ export const weapons = {
         "reload attack",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "ranged d10 (15ft cone)",
         "melee d12",
         "firearm",
         "reload bonus",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "ranged d12 (15ft cone)",
         "melee 2d8",
         "firearm",
@@ -1567,7 +1567,7 @@ export const weapons = {
       description:
         "A single edged sword with a barrel built into the spine. It has a pistol grip handle and a trigger hidden in the guard, but other variations of gunblade may exist, such as a gun axe or gun spear, which all use these properties. A master can seamlessly use the blade and bullets of a gunblade.",
       untrained: [
-        "one-handed",
+        "one handed",
         "ranged 2d6+5 (30/120)",
         "reload action",
         "melee d6",
@@ -1577,7 +1577,7 @@ export const weapons = {
         "hipshot",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "ranged 2d6+5 (40/160)",
         "reload attack",
         "melee d8",
@@ -1586,7 +1586,7 @@ export const weapons = {
         "hipshot",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "ranged 2d6+5 (50/200)",
         "reload attack",
         "melee 2d4",
@@ -1604,7 +1604,7 @@ export const weapons = {
       description:
         "A smooth bore, muzzle loaded, short range firearm that uses lead ball as ammunition, but the smaller barrel diameter and shorter length allows this weapon to be fired in melee. A master shoots from the hip, even while distracted or performing other tasks.",
       untrained: [
-        "one-handed",
+        "one handed",
         "ranged 2d6+5 (200/600)",
         "reload action",
         "awkward",
@@ -1613,7 +1613,7 @@ export const weapons = {
         "puncture",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "ranged 2d6+5 (200/600)",
         "reload attack",
         "firearm",
@@ -1621,7 +1621,7 @@ export const weapons = {
         "puncture",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "ranged 2d8+5 (200/600)",
         "reload attack",
         "firearm",
@@ -1638,7 +1638,7 @@ export const weapons = {
       description:
         "A concealable firearm with two barrels on a swivel, firing twice before reloading. More barrels may be added by a master smith, but the weapon loses its conceal property and each added barrel increases the misfire range by 1. Turning the swivel requires an object interaction. As an action you reload two barrels. The master can unload a hail of gunfire at close range by firing all barrels within seconds.",
       untrained: [
-        "two-handed",
+        "two handed",
         "ranged d4+5 (30/120)",
         "reload action",
         "awkward",
@@ -1647,7 +1647,7 @@ export const weapons = {
         "light",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "ranged d4+5 (30/120)",
         "reload action",
         "conceal",
@@ -1656,7 +1656,7 @@ export const weapons = {
         "light",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "ranged d4+5 (30/120)",
         "reload action",
         "conceal",
@@ -1674,7 +1674,7 @@ export const weapons = {
       description:
         "This cannon fires smaller iron balls than mounted varieties and requires 15 Strength to wield it. A master overpacks the cannon for a powerful concussive blast. On miss, this weapon lands on the ground within 5ft of the intended target. Roll a d8. The result is which square it lands in, starting with the square closest to you as 1, and counting clockwise until you reach the rolled number. If a creature is in this square, you roll an attack with disadvantage, dealing only d10 damage without your ability modifier. A deployable stand can be purchased for 150g. As an action you mount the cannon. It can't be moved and has no Strength requirement until it is unmounted as an action.",
       untrained: [
-        "two-handed",
+        "two handed",
         "ranged 2d10+5 (100/400)",
         "awkward",
         "firearm",
@@ -1684,7 +1684,7 @@ export const weapons = {
         "sunder",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "ranged 3d10+5 (200/800)",
         "firearm",
         "heavy",
@@ -1693,7 +1693,7 @@ export const weapons = {
         "sunder",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "ranged 4d10+5 (300/1200)",
         "firearm",
         "heavy",
@@ -1711,7 +1711,7 @@ export const weapons = {
       description:
         "A bracer with a hidden gunpowder compartment, but which can be filled with other substances similar to a firelance. The ranged attack is a 15ft line 5ft wide The master can deploy the fire at a moment's opportunity.",
       untrained: [
-        "one-handed",
+        "one handed",
         "ranged d4",
         "reload action",
         "awkward",
@@ -1723,7 +1723,7 @@ export const weapons = {
         "nimble",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "ranged 2d4",
         "reload attack",
         "affixed",
@@ -1734,7 +1734,7 @@ export const weapons = {
         "nimble",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "ranged 2d6",
         "reload bonus",
         "affixed",
@@ -1755,9 +1755,9 @@ export const weapons = {
       damageTypes: ["piercing", "bludgeoning"],
       description:
         "Two flail heads, each with a separate chain attached to a single handle, whether they are attached at opposing ends, or attached at the same end. The Double flail is a difficult weapon to use effectively, and only the master really gets use out of individual heads, turning a potential miss into a new opportunity.",
-      untrained: ["two-handed", "melee 2d4", "awkward", "heavy"],
-      basic: ["one-handed", "melee 2d4", "heavy", "trip", "versatile 2d6"],
-      master: ["one-handed", "melee 2d6", "heavy", "trip", "versatile 2d8"],
+      untrained: ["two handed", "melee 2d4", "awkward", "heavy"],
+      basic: ["one handed", "melee 2d4", "heavy", "trip", "versatile 2d6"],
+      master: ["one handed", "melee 2d6", "heavy", "trip", "versatile 2d8"],
       perk: " When you suffer disadvantage but one dice would have hit, you deal 1 of the weapon's damage dice plus your Strength modifier, even though this still counts as a miss. If you have advantage and both dice hit, add your Strength modifier twice to the damage total. ",
     },
     {
@@ -1767,9 +1767,9 @@ export const weapons = {
       damageTypes: ["piercing", "bludgeoning"],
       description:
         "The familiar 2lb spiked ball at the end of a length of  chain, attached to a short iron or wooden haft usually  similar in length to a handaxe. The light flail sees  lightning fast attacks turned into a great boon for the  master, carrying the weapons speed and momentum  into another attack if they miss.",
-      untrained: ["one-handed", "melee d4", "light", "trip"],
-      basic: ["one-handed", "melee d6", "disarm", "light", "trip"],
-      master: ["one-handed", "melee d6", "disarm", "light", "trip"],
+      untrained: ["one handed", "melee d4", "light", "trip"],
+      basic: ["one handed", "melee d6", "disarm", "light", "trip"],
+      master: ["one handed", "melee d6", "disarm", "light", "trip"],
       perk: " You may reroll any attack you miss once, but must take the new result. ",
     },
     {
@@ -1779,9 +1779,9 @@ export const weapons = {
       damageTypes: ["piercing", "bludgeoning"],
       description:
         "A large spiked metal bar attached to a long handle, allowing one or two handed usage. The massive head and lengthy chain put it in the same sphere of war as the warhammer and battle axe. A master's binding and tripping attacks still harm their target if the enemy resists the maneuver.",
-      untrained: ["two-handed", "melee d8", "awkward", "heavy", "penetrate"],
+      untrained: ["two handed", "melee d8", "awkward", "heavy", "penetrate"],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d8",
         "entangle",
         "heavy",
@@ -1790,7 +1790,7 @@ export const weapons = {
         "versatile d10",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d8",
         "disarm",
         "entangle",
@@ -1808,9 +1808,9 @@ export const weapons = {
       damageTypes: ["piercing", "bludgeoning"],
       description:
         "A pole weapon with a spiked bar of the heavy flail at the end of a chain. The master learns to bind and wrap opponents, disrupting their footwork to allow their own free movement.",
-      untrained: ["two-handed", "melee d10", "awkward", "heavy", "reach"],
-      basic: ["two-handed", "melee d10", "heavy", "reach", "trip"],
-      master: ["two-handed", "melee d10", "entangle", "heavy", "reach", "trip"],
+      untrained: ["two handed", "melee d10", "awkward", "heavy", "reach"],
+      basic: ["two handed", "melee d10", "heavy", "reach", "trip"],
+      master: ["two handed", "melee d10", "entangle", "heavy", "reach", "trip"],
       perk: " When you make a melee attack against a creature, you don't provoke opportunity attacks from that creature for the rest of the turn. ",
     },
     {
@@ -1821,7 +1821,7 @@ export const weapons = {
       description:
         "A small weight attached to a rope or chain, used like rope dart to make circular and explosive lunging attacks. A master can twirl the weapon around them with varying angles to strike any foe who might get near.",
       untrained: [
-        "two-handed",
+        "two handed",
         "melee d4",
         "awkward",
         "conceal",
@@ -1830,7 +1830,7 @@ export const weapons = {
         "reach",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "melee d4",
         "conceal",
         "entangle",
@@ -1840,7 +1840,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "melee d4",
         "conceal",
         "disarm",
@@ -1859,9 +1859,9 @@ export const weapons = {
       damageTypes: ["bludgeoning"],
       description:
         "Made famous in Okinawa, the nunchaku is two rods bound by a rope or chain. By whipping around the body, it can make dizzyingly fast attacks, and despite being a one-handed weapon, a master can wield it like a Double Ended weapon. ",
-      untrained: ["one-handed", "melee d4", "conceal", "finesse"],
+      untrained: ["one handed", "melee d4", "conceal", "finesse"],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "conceal",
         "entangle",
@@ -1870,7 +1870,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "conceal",
         "disarm",
@@ -1889,9 +1889,9 @@ export const weapons = {
       damageTypes: ["bludgeoning"],
       description:
         "A quarterstaff cut into three sections, each connected with a small length of chain or rope. A master uses this weapon's double hinges to strike in unpredictable ways, tripping or entangling with either end of the weapon.",
-      untrained: ["two-handed", "awkward", "finesse", "melee d6"],
+      untrained: ["two handed", "awkward", "finesse", "melee d6"],
       basic: [
-        "two-handed",
+        "two handed",
         "melee d6",
         "double ended d4",
         "entangle",
@@ -1899,7 +1899,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "melee d6",
         "balanced",
         "disarm",
@@ -1917,9 +1917,9 @@ export const weapons = {
       damageTypes: ["slashing"],
       description:
         "The whip is treated as a melee weapon with 15ft reach. You can use a whip to grasp unattended small objects, or any reasonable handhold within range and if possible, you can pull the object to you. A whip master treats their whips as extensions of their hands. ",
-      untrained: ["one-handed", "melee d2", "awkward", "finesse"],
+      untrained: ["one handed", "melee d2", "awkward", "finesse"],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "disarm",
         "finesse",
@@ -1927,7 +1927,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "disarm",
         "entangle",
@@ -1946,10 +1946,10 @@ export const weapons = {
       damageTypes: ["piercing", "slashing"],
       description:
         "A whip sword can be either a sword or a bladed whip. As a bonus action, you change between the forms of your weapon. As a sword, it is similar to a longsword. As a whip, it gains reach, utility, and a target entangled by you takes your weapon's damage. A master can quickly change between forms as needed to attack enemies near their entangled prey.",
-      untrained: ["one-handed", "melee d6", "awkward", "versatile d8"],
-      basic: ["one-handed", "melee d8", "finesse", "versatile d10"],
+      untrained: ["one handed", "melee d6", "awkward", "versatile d8"],
+      basic: ["one handed", "melee d8", "finesse", "versatile d10"],
       master: [
-        "one-handed",
+        "one handed",
         "melee d8",
         "lunge",
         "finesse",
@@ -1965,9 +1965,9 @@ export const weapons = {
       damageTypes: ["slashing"],
       description:
         "A whip sword can be either a sword or a bladed whip. As a bonus action, you change between the forms of your weapon. As a sword, it is similar to a longsword. As a whip, it gains reach, utility, and a target entangled by you takes your weapon's damage. A master can quickly change between forms as needed to attack enemies near their entangled prey.",
-      untrained: ["one-handed", "melee d4", "awkward", "reach"],
+      untrained: ["one handed", "melee d4", "awkward", "reach"],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "barbed",
         "entangle",
@@ -1976,7 +1976,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d8",
         "barbed",
         "entangle",
@@ -1996,16 +1996,16 @@ export const weapons = {
       description:
         "A short-handled hammer about the size of a handaxe and just as balanced for throwing. While a mace may shred armor, a hammer delivers precise blows that weaken the enemy, and a master can disorient the opponent for follow up attacks.",
       untrained: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "thrown (10/40)",
         "awkward",
         "light",
         "penetrate",
       ],
-      basic: ["one-handed", "melee d6", "thrown (20/60)", "light", "penetrate"],
+      basic: ["one handed", "melee d6", "thrown (20/60)", "light", "penetrate"],
       master: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "thrown (20/60)",
         "light",
@@ -2021,7 +2021,7 @@ export const weapons = {
       description:
         "Historically a lightweight, long-handled weapon around 3ft-4ft in length, designed to damage armored enemies. The small, pronged hammer head is often backed with a military pick or different style of face. A master of the warhammer carries momentum into each attack to send foes reeling.",
       untrained: [
-        "one-handed",
+        "one handed",
         "melee d8",
         "awkward",
         "penetrate",
@@ -2029,7 +2029,7 @@ export const weapons = {
         "sunder",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d8",
         "penetrate",
         "stagger",
@@ -2037,7 +2037,7 @@ export const weapons = {
         "versatile d10",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d10",
         "penetrate",
         "stagger",
@@ -2054,7 +2054,7 @@ export const weapons = {
       description:
         "A massive weapon near the size of a greataxe with an immensely weighted head, the maul can send foes staggering from even attempting to block such a massive weapon. Mauls always gain advantage when rolling an attack to destroy an object. The master finds the best ways to bully their opponents with the weight of this massive weapon.",
       untrained: [
-        "two-handed",
+        "two handed",
         "melee d12",
         "awkward",
         "heavy",
@@ -2062,7 +2062,7 @@ export const weapons = {
         "stagger",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "melee 2d6",
         "heavy",
         "penetrate",
@@ -2070,7 +2070,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "melee 2d8",
         "heavy",
         "penetrate",
@@ -2087,7 +2087,7 @@ export const weapons = {
       description:
         "A pole mounted, pronged hammer head for crushing blows on one side and a vicious hooking spike head for piercing and peeling armor on the other. The long haft allows the wielder to put devastating force behind the blows of this weapon. Lucerne masters swing at angles which force their enemies to choose between sacrificing equipment or flesh.",
       untrained: [
-        "two-handed",
+        "two handed",
         "melee 2d6",
         "awkward",
         "brace",
@@ -2098,7 +2098,7 @@ export const weapons = {
         "sunder",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "melee 2d6",
         "brace",
         "heavy",
@@ -2109,7 +2109,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "melee 2d6",
         "brace",
         "heavy",
@@ -2129,7 +2129,7 @@ export const weapons = {
       description:
         "A long, thin pick, mounted to a short haft, capable of precise, targeted piercing attacks that punch through armor with ease. Though not as stout as a war pick, the light pick allows more agile maneuvers, as well as balanced throwing. A master looks for the perfect opening, placing the pick into soft targets or between plates where armor is lacking.",
       untrained: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "thrown (10/40)",
         "finesse",
@@ -2137,7 +2137,7 @@ export const weapons = {
         "penetrate",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "thrown (20/60)",
         "finesse",
@@ -2147,7 +2147,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "thrown (20/60)",
         "finesse",
@@ -2166,7 +2166,7 @@ export const weapons = {
       description:
         "Similar in size to the light pick, with a longer, hooked spike to aid in climbing. In combat, the hook is used to grapple or disarm enemies while still able to puncture and pierce armor. A wall pick gives you advantage on climb checks and you can climb onto creatures any size category bigger than you. The master can grapple a foe as easily as they latch onto a wall.",
       untrained: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "thrown (10/40)",
         "awkward",
@@ -2174,7 +2174,7 @@ export const weapons = {
         "penetrate",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "thrown (20/60)",
         "barbed",
@@ -2184,7 +2184,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "finesse",
         "thrown (20/60)",
@@ -2205,7 +2205,7 @@ export const weapons = {
       description:
         "A weaponized miner's pick, famously invented by militant mountain dwarves, refined worldwide for use against armored infantries. The pick comes in many forms but is usually a battle axe sized weapon with a reinforced spike on one end, and a narrow hammer opposite the spike. The master can strike vital areas, puncturing deeply to bleed the target out over time.",
       untrained: [
-        "one-handed",
+        "one handed",
         "melee d8",
         "awkward",
         "penetrate",
@@ -2213,7 +2213,7 @@ export const weapons = {
         "sunder",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d8",
         "penetrate",
         "puncture",
@@ -2221,7 +2221,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d10",
         "penetrate",
         "puncture",
@@ -2238,7 +2238,7 @@ export const weapons = {
       description:
         "A thin, round spike with a thin point and round cross section make it perfect for fitting between or outright puncturing through metal plates or rings. A master employs a host of grappling techniques as follow ups to their initial attacks.",
       untrained: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "finesse",
         "light",
@@ -2246,7 +2246,7 @@ export const weapons = {
         "puncture",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "conceal",
         "finesse",
@@ -2255,7 +2255,7 @@ export const weapons = {
         "puncture",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "conceal",
         "entangle",
@@ -2275,9 +2275,9 @@ export const weapons = {
       damageTypes: ["piercing", "slashing"],
       description:
         "A 6' staff weapon with a sword on each end, usually straight, but curved varieties exist. A bladed staff can be used to great effect, creating space around the wielder in a skirmish, or used as an effective spear with a wicked butt end. The master is able to attack as quickly with two blades as others are with only one, in lightning rapid fire strikes that take full advantage of the weapon's reach.",
-      untrained: ["two-handed", "melee d8", "awkward", "balanced", "brace"],
+      untrained: ["two handed", "melee d8", "awkward", "balanced", "brace"],
       basic: [
-        "two-handed",
+        "two handed",
         "melee 2d4",
         "double ended d4",
         "balanced",
@@ -2286,7 +2286,7 @@ export const weapons = {
         "reach",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "melee 2d4",
         "double ended 2d4",
         "balanced",
@@ -2304,7 +2304,7 @@ export const weapons = {
       description:
         'Perhaps the simplest of the polearms, a glaive is a 36"-40" sword blade mounted on a 4ft-6ft pole, creating a 6ft-8ft weapon. A Glaive can be used like a spear or like a greatsword, and the wide, sweeping slashes deal extra damage to creatures much bigger than the wielder. Sometimes referred to as a horse killer, the Glaive was originally designed to be used by infantry against cavalry, but in the hands of a master, can be used quite effectively as a giant killer.',
       untrained: [
-        "two-handed",
+        "two handed",
         "melee d10",
         "awkward",
         "brace",
@@ -2312,9 +2312,9 @@ export const weapons = {
         "reach",
         "heavy",
       ],
-      basic: ["two-handed", "melee 2d6", "brace", "finesse", "reach", "heavy"],
+      basic: ["two handed", "melee 2d6", "brace", "finesse", "reach", "heavy"],
       master: [
-        "two-handed",
+        "two handed",
         "melee 2d6",
         "brace",
         "finesse",
@@ -2332,7 +2332,7 @@ export const weapons = {
       description:
         "A sharpened and sturdy pruning hook, developed as a peasant weapon from modifying a farm tool. The curved hook of the blade allows the guisarme to be used as a tripping weapon or to pull foes from the saddle. A Guisarme is a favorite of common militias who will face cavalry in battle, as the master can pull a knight from the saddle with relative ease.",
       untrained: [
-        "two-handed",
+        "two handed",
         "melee d10",
         "brace",
         "keen",
@@ -2341,7 +2341,7 @@ export const weapons = {
         "heavy",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "melee d12",
         "brace",
         "keen",
@@ -2350,7 +2350,7 @@ export const weapons = {
         "heavy",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "melee 2d6",
         "brace",
         "keen",
@@ -2368,7 +2368,7 @@ export const weapons = {
       description:
         "A rare and unusual double ended weapon, consisting of a three to five foot shaft and a crescent blade fitted at each end, with the points of the crescents pointing away from the haft of the weapon, giving it essentially 2 outward facing axe points on each end. Lajatang masters are extremely rare, but are a whirling dervish of crescent blades and points, dangerous from all sides. ",
       untrained: [
-        "two-handed",
+        "two handed",
         "melee d6",
         "awkward",
         "brace",
@@ -2376,7 +2376,7 @@ export const weapons = {
         "keen",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "melee d8",
         "double ended d8",
         "brace",
@@ -2385,7 +2385,7 @@ export const weapons = {
         "keen",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "melee d10",
         "double ended d10",
         "brace",
@@ -2403,15 +2403,15 @@ export const weapons = {
       description:
         "Much like a Glaive design, this pole weapon is essentially a shortsword blade mounted to a long haft, but keeps a wide cross guard at the base of the blade, trading sweeping cuts for defensive guards. The master Partisan uses the guard of their weapon like a shield at distance, and can even use it to protect allies.",
       untrained: [
-        "two-handed",
+        "two handed",
         "melee d10",
         "awkward",
         "brace",
         "reach",
         "heavy",
       ],
-      basic: ["two-handed", "melee 2d6", "brace", "reach", "heavy"],
-      master: ["two-handed", "melee 2d6", "brace", "reach", "lunge", "heavy"],
+      basic: ["two handed", "melee 2d6", "brace", "reach", "heavy"],
+      master: ["two handed", "melee 2d6", "brace", "reach", "lunge", "heavy"],
       perk: "You have +2 weapon AC. When an enemy lands an attack on an ally within your range, you may use your reaction to force the enemy to reroll the attack. ",
     },
     {
@@ -2422,7 +2422,7 @@ export const weapons = {
       description:
         "Whether mounted horizontally like a traditional farming implement, or mounted vertically like a glaive, a war scythe has its roots in a peasant militia looking to arm itself in times of war. A scythe in the right hands can be useful in combat, though it takes a practiced master to be truly effective. The master uses the scythe's reaping motion to deal horrible slashing wounds to the foes they trip in combat.",
       untrained: [
-        "two-handed",
+        "two handed",
         "melee 2d6",
         "heavy",
         "keen",
@@ -2432,7 +2432,7 @@ export const weapons = {
         "trip",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "melee 2d6",
         "heavy",
         "keen",
@@ -2443,7 +2443,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "melee 2d6",
         "heavy",
         "keen",
@@ -2465,7 +2465,7 @@ export const weapons = {
       description:
         "A short spear with a heavy ball socket to hold the spear point, making use of sweeping bludgeons and weighted piercing attacks. The master makes full use of the added weight for powerful blows that set their enemy off balance.",
       untrained: [
-        "two-handed",
+        "two handed",
         "melee d6",
         "thrown (10/40)",
         "awkward",
@@ -2474,7 +2474,7 @@ export const weapons = {
         "stagger",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "melee d6",
         "thrown (20/60)",
         "penetrate",
@@ -2483,7 +2483,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "melee d8",
         "disarm",
         "thrown (30/120)",
@@ -2501,10 +2501,10 @@ export const weapons = {
       damageTypes: ["piercing"],
       description:
         "A barbed throwing spear with a welded ring, attached to a length of rope or chain so the target or harpoon can be retrieved. A master of the harpoon impales with ease and can swiftly reel in a harpooned prey. Each hit, your enemy must succeed on a Constitution saving throw or be impaled, while a critical hit always impales.",
-      untrained: ["two-handed", "melee d6", "thrown (10/40)", "awkward"],
-      basic: ["one-handed", "melee d6", "barbed", "puncture", "thrown (20/60)"],
+      untrained: ["two handed", "melee d6", "thrown (10/40)", "awkward"],
+      basic: ["one handed", "melee d6", "barbed", "puncture", "thrown (20/60)"],
       master: [
-        "one-handed",
+        "one handed",
         "melee d8",
         "barbed",
         "penetrate",
@@ -2522,14 +2522,14 @@ export const weapons = {
       description:
         "A light throwing spear balanced for flight but sturdy enough as a simple spear. A master can make an Olympian throw, puncturing shields so deeply, the enemy must pry the remnants out before it can be of any use in combat.",
       untrained: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "thrown (20/60)",
         "light",
         "penetrate",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "thrown (30/120)",
         "light",
@@ -2537,7 +2537,7 @@ export const weapons = {
         "sunder",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d8",
         "thrown (30/240)",
         "light",
@@ -2553,9 +2553,9 @@ export const weapons = {
       damageTypes: ["piercing"],
       description:
         "Designed for mounted use, the lance has ample hand protection and a heavily weighted pommel to brace the spear to target a mounted enemy in a charge or foot soldiers at range. Due to its design, a lance imposes disadvantage on attacks against targets within 5ft while on foot, but while mounted, this weapon gains Penetrate. Masters leverage their mount's Strength into each attack, allowing for devastating blows that knock enemies to the ground with ease.",
-      untrained: ["two-handed", "melee d8", "awkward", "brace", "reach"],
-      basic: ["two-handed", "melee d12", "brace", "reach"],
-      master: ["one-handed", "melee 2d8", "brace", "reach", "stagger"],
+      untrained: ["two handed", "melee d8", "awkward", "brace", "reach"],
+      basic: ["two handed", "melee d12", "brace", "reach"],
+      master: ["one handed", "melee 2d8", "brace", "reach", "stagger"],
       perk: "You may attempt a Shove as a bonus action. While mounted, each attack is also a shove attempt, and you have advantage in the contest.  Additionally, you no longer suffer disadvantage to attack rolls when you use this weapon on foot.",
     },
     {
@@ -2565,9 +2565,9 @@ export const weapons = {
       damageTypes: ["piercing"],
       description:
         "A 6ft spear with a thick shaft, shod in banding and with a hefty counterweight to provide maximum tip control one handed, or a brutal bludgeon while wielded in two hands, which makes it very balanced for throwing. A war spear is the soldier's ideal weapon on the front line, and a master is a true war fighter, using spear techniques as ancient and true as the armies that employed them.",
-      untrained: ["two-handed", "melee d8", "awkward"],
+      untrained: ["two handed", "melee d8", "awkward"],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d8",
         "thrown (20/60)",
         "balanced",
@@ -2577,7 +2577,7 @@ export const weapons = {
         "versatile d10",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d10",
         "thrown (30/120)",
         "balanced",
@@ -2597,7 +2597,7 @@ export const weapons = {
       description:
         "The pike is a long weapon, varying in size from 8 to 12 feet long, designed for foot soldiers in a phalanx formation to be used against an opposing line. It has a wooden shaft shod in iron, with a long spearhead affixed to allow deep punctures. A master with the Pike fights as a phalanx soldier, striking so deftly they can stop a charging lineman.",
       untrained: [
-        "two-handed",
+        "two handed",
         "melee d10",
         "brace",
         "heavy",
@@ -2605,7 +2605,7 @@ export const weapons = {
         "reach",
       ],
       basic: [
-        "two-handed",
+        "two handed",
         "melee d12",
         "brace",
         "heavy",
@@ -2614,7 +2614,7 @@ export const weapons = {
         "reach",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "melee 2d8",
         "brace",
         "heavy",
@@ -2631,9 +2631,9 @@ export const weapons = {
       damageTypes: ["piercing", "slashing"],
       description:
         "A war spear with a crescent shaped hook on one side of the tip, to be used to hook or slash. The added weight reduces its versatility, but the hook's utility more than makes up the difference. In the hands of a master, the beak can be used to redirect attacks into an enemy's allies.",
-      untrained: ["two-handed", "melee d8", "brace", "heavy", "reach", "trip"],
+      untrained: ["two handed", "melee d8", "brace", "heavy", "reach", "trip"],
       basic: [
-        "two-handed",
+        "two handed",
         "melee d8",
         "brace",
         "entangle",
@@ -2643,7 +2643,7 @@ export const weapons = {
         "trip",
       ],
       master: [
-        "two-handed",
+        "two handed",
         "melee d10",
         "brace",
         "disarm",
@@ -2662,16 +2662,16 @@ export const weapons = {
       damageTypes: ["piercing"],
       description:
         "Traditionally a fishing tool, the war trident is repurposed with little modification. Three prongs more reliably damage than an ordinary spear, and the master can trap, bind and disarm enemies with ease.",
-      untrained: ["one-handed", "melee d8", "awkward"],
+      untrained: ["one handed", "melee d8", "awkward"],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d8",
         "disarm",
         "thrown (20/60)",
         "versatile 2d4",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d12",
         "deflect",
         "disarm",
@@ -2689,9 +2689,9 @@ export const weapons = {
       damageTypes: ["bludgeoning"],
       description:
         "A pair of weights connected to a reinforced cord or chain to bind a target's limbs. The master bolo accurately targets the legs to bind and trip in one attack. A normal bolas has an 15AC, 2HP and is immune to bludgeoning damage, but more sturdy versions may exist. When your enemy escapes from or reduces the bolas to 0hp, it is destroyed. Bolos are a type of weapon that uses the Entangle property even if no one is holding the weapon.",
-      untrained: ["one-handed", "thrown d4 (10/30)", "awkward"],
-      basic: ["one-handed", "thrown d4 (20/30)", "entangle"],
-      master: ["one-handed", "thrown d4 (40/60)", "entangle", "trip"],
+      untrained: ["one handed", "thrown d4 (10/30)", "awkward"],
+      basic: ["one handed", "thrown d4 (20/30)", "entangle"],
+      master: ["one handed", "thrown d4 (40/60)", "entangle", "trip"],
       perk: " When your entangle attack hits, the target must succeed on the save or become prone and restrained. ",
     },
     {
@@ -2702,14 +2702,14 @@ export const weapons = {
       description:
         "A hooked wing, sharpened on the inner curve and used like a cudgel. The master can curve its flight path to hit more than one target with a powerful throw.",
       untrained: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "thrown (30/120)",
         "awkward",
         "light",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "thrown (40/120)",
         "disarm",
@@ -2717,7 +2717,7 @@ export const weapons = {
         "light",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "thrown (80/240)",
         "disarm",
@@ -2735,7 +2735,7 @@ export const weapons = {
       description:
         "A sharpened discus or ring, sturdy enough to be used in melee. Dangerous from all angles, the master uses any opening as an opportunity for a quick throw or slash.",
       untrained: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "thrown (20/60)",
         "awkward",
@@ -2743,7 +2743,7 @@ export const weapons = {
         "light",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "thrown (40/120)",
         "finesse",
@@ -2751,7 +2751,7 @@ export const weapons = {
         "light",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d8",
         "thrown (80/500)",
         "finesse",
@@ -2768,7 +2768,7 @@ export const weapons = {
       description:
         "A short rod fletched like an arrow with a weighted tip. A master pins targets with precision aimed at clothing.",
       untrained: [
-        "one-handed",
+        "one handed",
         "thrown d4 (20/60)",
         "finesse",
         "light",
@@ -2776,7 +2776,7 @@ export const weapons = {
         "puncture",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "thrown d4 (30/60)",
         "finesse",
         "light",
@@ -2784,7 +2784,7 @@ export const weapons = {
         "puncture",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "thrown d6 (60/120)",
         "finesse",
         "light",
@@ -2801,7 +2801,7 @@ export const weapons = {
       description:
         "A small, dagger-like tool of Japanese origin derived from a masonry trowel. Its ring pommel and wide design allow for unique utility with rope, and in the hands of a master, the heavier design allows for deflections mid-flight .",
       untrained: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "thrown (20/60)",
         "conceal",
@@ -2809,7 +2809,7 @@ export const weapons = {
         "light",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "thrown (20/60)",
         "conceal",
@@ -2818,7 +2818,7 @@ export const weapons = {
         "light",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d6",
         "thrown (30/90)",
         "conceal",
@@ -2835,10 +2835,10 @@ export const weapons = {
       damageTypes: "A Net deals no damage.",
       description:
         "A Large or smaller creature hit by a net is restrained until freed. It has no effect on creatures that are formless or Huge or larger. Dealing 5 slashing damage to the net (AC10) ends the restrained condition and destroys the net. Masters can toss the net in a way that tangles it around their prey, making it much harder to escape.",
-      untrained: ["two-handed", "thrown (5/10)", "awkward", "entangle"],
-      basic: ["two-handed", "thrown (10/20)", "entangle"],
+      untrained: ["two handed", "thrown (5/10)", "awkward", "entangle"],
+      basic: ["two handed", "thrown (10/20)", "entangle"],
       master: [
-        "one-handed",
+        "one handed",
         "thrown (15/30)",
         "deflect d6",
         "entangle",
@@ -2854,7 +2854,7 @@ export const weapons = {
       description:
         'Small, balanced knives with a broad piercing tip and sharpened pommel, no longer than 4"-6". Easily hidden, these blades offer more range than throwing stars due to the higher weighted pommel. A master has perfected the art of quick throws at their enemy\'s hands or arms as they swing a weapon, causing the knife to interfere with their attack.',
       untrained: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "thrown (20/60)",
         "awkward",
@@ -2863,7 +2863,7 @@ export const weapons = {
         "light",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "thrown (30/90)",
         "conceal",
@@ -2871,7 +2871,7 @@ export const weapons = {
         "light",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "melee d4",
         "thrown (60/120)",
         "conceal",
@@ -2888,21 +2888,21 @@ export const weapons = {
       description:
         "Though not strictly their invention, the technique to throw an iron ball in combat was pioneered by the Orcs. Not many can stand up to the heavy iron in flight. A master is deadly accurate with the shot and is able to target an enemy's head to stun if they have an advantage.  A creature with Strength less than 13 cannot wield a shot at all.",
       untrained: [
-        "one-handed",
+        "one handed",
         "thrown d8 (10ft)",
         "awkward",
         "penetrate",
         "stagger",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "thrown d10 (20/60)",
         "penetrate",
         "stagger",
         "trip",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "thrown d12 (30/90)",
         "disarm",
         "penetrate",
@@ -2920,7 +2920,7 @@ export const weapons = {
       description:
         "Star shaped metal disks made to be palmed together and thrown as a pepper of smaller strikes to disable an enemy before a followup attack. The flat, small design of these weapons allows many to be palmed at once and thrown all together. A master has the capability to dance in a quick circle, throwing stars at all foes around them.",
       untrained: [
-        "one-handed",
+        "one handed",
         "thrown d4 (10/30)",
         "conceal",
         "finesse",
@@ -2928,7 +2928,7 @@ export const weapons = {
         "nimble",
       ],
       basic: [
-        "one-handed",
+        "one handed",
         "thrown d4 (20/60)",
         "conceal",
         "finesse",
@@ -2936,7 +2936,7 @@ export const weapons = {
         "nimble",
       ],
       master: [
-        "one-handed",
+        "one handed",
         "thrown d4 (40/120)",
         "conceal",
         "finesse",
@@ -2947,3 +2947,383 @@ export const weapons = {
     },
   ],
 };
+
+export const armor = {
+  light: [
+    {
+      name: "Padded",
+      AC: 11,
+      stealthDisadvantage: true,
+      weight: 4,
+      gold: 5,
+    },
+    {
+      name: "Leather",
+      AC: 11,
+      stealthDisadvantage: false,
+      weight: 5,
+      gold: 10,
+    },
+    {
+      name: "Studded",
+      AC: 12,
+      stealthDisadvantage: false,
+      weight: 6,
+      gold: 45,
+    },
+    {
+      name: "Lacquered",
+      AC: 13,
+      stealthDisadvantage: true,
+      weight: 6,
+      gold: 300,
+    },
+  ],
+  medium: [
+    {
+      name: "Chain Shirt",
+      AC: 13,
+      stealthDisadvantage: true,
+      weight: 10,
+      gold: 50,
+    },
+    {
+      name: "Ring Mail",
+      AC: 14,
+      stealthDisadvantage: false,
+      weight: 12,
+      gold: 100,
+    },
+    {
+      name: "Breastplate",
+      AC: 15,
+      stealthDisadvantage: false,
+      weight: 10,
+      gold: 300,
+    },
+    {
+      name: "Banded Mail",
+      AC: 16,
+      stealthDisadvantage: true,
+      weight: 20,
+      gold: 500,
+    },
+  ],
+  heavy: [
+    {
+      name: "Hauberk",
+      AC: 15,
+      stealthDisadvantage: true,
+      weight: 25,
+      gold: 150,
+    },
+    {
+      name: "Scale Mail",
+      AC: 16,
+      stealthDisadvantage: true,
+      weight: 30,
+      gold: 300,
+    },
+    {
+      name: "Splint",
+      AC: 17,
+      stealthDisadvantage: true,
+      weight: 33,
+      gold: 750,
+    },
+    {
+      name: "Plate",
+      AC: 18,
+      stealthDisadvantage: true,
+      weight: 40,
+      gold: 1500,
+    },
+  ],
+};
+
+export const shields = [
+  {
+    name: "Arm Guard",
+    description:
+      "A fully enclosed arm shield that often had a sword built into is construction to make a gauntlet sword called a pata. Without an attached weapon, the hand which has an arm guard equipped can be used to help wield a weapon or assist with Reload, but cannot be used to wield a weapon by itself; in this case it must be attached to the arm guard. The master has perfected this fighting style.",
+    AC: 1,
+    STR: null,
+    stealthDisadvantage: false,
+    donStrapped: null,
+    donHeld: "Object Interaction",
+    weight: 1,
+    gold: 10,
+    basic:
+      "You may affix any one handed weapon with the light property to an arm guard. Attack rolls made with this weapon or any weapon the arm guard hand is helping to wield suffer a -1 penalty.",
+    master:
+      "You no longer suffer the -1 attack penalty, you cannot be disarmed of any weapon, and you may don the arm guard for free.",
+  },
+  {
+    name: "Buckler",
+    description:
+      "A buckler, or target, is a hand shield used by duelists and fencers for its small profile and ease of counter attacks while deflecting. The master's trained duelist techniques set them up for the perfect riposte.",
+    AC: 1,
+    STR: null,
+    stealthDisadvantage: false,
+    donStrapped: null,
+    donHeld: "Object Interaction",
+    weight: 3,
+    gold: 5,
+    basic: "The buckler has Deflect (d8)",
+    master:
+      "You may add the deflect roll from the buckler to any deflect roll you make with your main hand, and if this roll reduces incoming damage to 0, you can roll a single attack against this attacker as part of the same reaction.",
+  },
+  {
+    name: "Diskarmor",
+    description:
+      "An esoteric weapon of gnomish invention, a diskarmor is a round shield attached to a chain mechanism that retracts quickly after the chain reaches its length to make essentially a shield yo-yo. The user can toss it out to wield it like a large flail, then retract it to be used as a shield again. Diskarmor is a shield which has the following properties: One Handed, Melee d6, Entangle, Reach, Trip. Diskarmor deals bludgeoning damage. A diskarmor is not considered a weapon.",
+    AC: 2,
+    STR: null,
+    stealthDisadvantage: false,
+    donStrapped: null,
+    donHeld: "Bonus Action",
+    weight: 3,
+    gold: 5,
+    basic:
+      "You can replace any of your attacks with an attack using the Diskarmor. This attack does not benefit from your ability modifier to damage unless you have the Two-Weapon Fighting Style.",
+    master:
+      "When your ally within 10ft is hit by an attack, you can use your reaction to confer your shield AC bonus from this shield to them until the end of your next turn, possibly negating an attack.",
+  },
+  {
+    name: "Kite",
+    description:
+      "Kite shields are as wide as the wielder's torso but extend downward with a point or oval extension to protect the legs, which can also be used offensively to knock an enemy off guard. While wielding a Kite, you only add a maximum of +2 to your AC from your Dexterity modifier.",
+    AC: 3,
+    STR: 13,
+    stealthDisadvantage: true,
+    donStrapped: "Action",
+    donHeld: "Action",
+    weight: 10,
+    gold: 50,
+    basic:
+      "You gain advantage on any saving throw or ability check made to resist being knocked prone or moved along the ground.",
+    master:
+      "When you win an athletics contest, you can choose to stagger your enemy instead of any normal outcome of the contest.",
+  },
+  {
+    name: "Pavise",
+    description:
+      "A pavise is a lighter tower shield with a central spike to drive into the ground, or a set of legs to allow the shield to stand freely. While deployed, you can use it as cover. Unfortunately it is unwieldable as a normal shield, only able to be worn on the back. While wearing it, you are unable to equip any other shield, and only add a maximum of +2 from your Dexterity modifier to your AC, as its size is ungainly and cumbersome. While deployed, a Pavise can be knocked down if the enemy succeeds on an Athletics Check against your weapon DC. As a bonus action you can pick up a pavise and either deploy it again or don it on your back.",
+    AC: 1,
+    STR: 13,
+    stealthDisadvantage: true,
+    donStrapped: null,
+    donHeld: null,
+    weight: 15,
+    gold: 35,
+    basic:
+      "While worn, you gain +1 AC and negate any flanking bonus any enemy might have on you. As a bonus action, you can deploy the shield to solid ground, which takes up a 5 ft square space. While the shield is between you and any enemy, you gain the benefits of half cover.",
+    master:
+      "While the shield is between you and any enemy, you gain the benefits of three-quarters cover. Additionally, an enemy has disadvantage on any roll made to knock your shield down while you use it as cover.",
+  },
+  {
+    name: "Skirmish",
+    description:
+      "Skirmish shields come in a variety of shapes but are about the size of the user's torso. A Skirmish shield is large enough to provide better passive protection than the buckler, while still providing the agility missing with a tower shield. The master can extend this agility to even spell attacks.",
+    AC: 2,
+    STR: null,
+    stealthDisadvantage: false,
+    donStrapped: "Action",
+    donHeld: "Bonus Action",
+    weight: 6,
+    gold: 10,
+    basic:
+      "You gain an additional +2AC bonus against ranged weapon attacks, adding +4AC in total.",
+    master:
+      "You gain an additional +2AC bonus against ranged spell attacks, adding +4 in total, and a successful shove deals d4 + Strength modifier in bludgeoning damage.",
+  },
+  {
+    name: "Spiked",
+    description:
+      "A spiked shield is a blanket term for all weaponized shields, with spikes on the face and either a spiked or bladed edge. Somewhat cumbersome compared to a skirmish shield with the added weaponization, a spiked shield is hard to be stealthy and agile with. Spiked shield is a shield which has the following properties: One Handed, Melee d6, Brace, Puncture, Thrown (20/60). Spiked shield deals piercing or slashing damage. A spiked shield is not considered a weapon.",
+    AC: 2,
+    STR: null,
+    stealthDisadvantage: true,
+    donStrapped: "Action",
+    donHeld: "Bonus Action",
+    weight: 8,
+    gold: 20,
+    basic:
+      "You can replace any of your attacks with an attack using the Spiked shield. This attack does not benefit from your ability modifier to damage unless you have the Two-Weapon Fighting Style.",
+    master:
+      "You are so effective at using the dangerous points or blades of your shield that all enemies suffer disadvantage to athletics checks against you, and a successful shove deals d4 + Strength modifier in piercing or slashing damage.",
+  },
+  {
+    name: "Tower",
+    description:
+      "This massive shield is as tall as you and just as wide; you more fight around it like a door as a piece of mobile cover. The master shieldman can take cover at a moment's notice, effectively giving the enemy no target. While wielding a tower shield, you cannot add your Dexterity modifier to your AC.",
+    AC: 3,
+    STR: 13,
+    stealthDisadvantage: true,
+    donStrapped: "Action",
+    donHeld: "Action",
+    weight: 20,
+    gold: 50,
+    basic:
+      "You negate any flanking bonus an enemy might have on you. Additionally, when you are hit with an attack or are forced to roll a Dexterity saving throw, you may use your reaction to gain half cover, possibly negating the attack or granting you a bonus to your Dexterity saving throw before you roll. This half cover lasts only for the effect that triggered your reaction.",
+    master:
+      "While using the shield as cover, if you are subjected to an effect that allows you to make a Dexterity saving throw, and you fail that save, you take only half damage.",
+  },
+];
+
+export const properties = [
+  {
+    name: "Affixed",
+    description:
+      "This equipment is worn and wielded in the main or off hand. While dual wielding with an affixed weapon, the other weapon does not need the Light property. Affixed weapons are donned or doffed as an action and cannot be disarmed. While worn, it can be equipped for free during your turn, and while not equipped, it remains attached to your body, leaving your hand open for other things.",
+  },
+  {
+    name: "Awkward",
+    description:
+      "This weapon requires Basic training to use properly, but you still get limited use with it. You do not add your proficiency bonus while rolling an attack with this weapon.",
+  },
+  {
+    name: "Barbed",
+    description:
+      "When this weapon is entangling your enemy, and the enemy succeeds on the check to escape from your grapple, that enemy takes your weapon's damage.",
+  },
+  {
+    name: "Balanced",
+    description:
+      "When this weapon rolls a 1 on any of its damage dice, you may reroll that dice but must use the new result. If you wield this weapon with two hands, you may reroll the damage dice if it is a 1 or a 2.",
+  },
+  {
+    name: "Brace",
+    description:
+      "As an action you choose to Brace. On your turn, choose any targets you can see that are more than 20 feet away from you. If any of those targets move within your weapon’s reach before your next turn, as a reaction you can roll one melee attack against them with advantage. If the attack hits, treat the attack as a critical hit. While bracing, if you use a different reaction, you are no longer bracing. While bracing, if you move or are moved against your will, you can no longer perform this attack and must brace again at the start of your turn to do so again. A brace attack is not an opportunity attack.",
+  },
+  {
+    name: "Conceal",
+    description:
+      "At the start of combat, if your passive Sleight of Hand is higher than your enemy's passive perception, or as a bonus action make a Sleight of Hand check to beat this score, you can hide these weapons from your enemy. If hidden, the first attack made with it against a single unaware enemy is treated as attacking a surprised creature, as your enemy wasn't expecting your weapon. Once you use the weapon, you cannot hide it again, nor can you make any further surprise attacks with any conceal weapon during that same encounter.",
+  },
+  {
+    name: "Deflect",
+    description:
+      "When struck by a melee weapon attack from a creature you can see, you can use your reaction to deflect some damage you would receive. If wielding one Deflect weapon, you may roll your weapon's damage, add your Strength modifier, or Dexterity modifier if your weapon has the finesse property, then subtract that total from the damage you would receive. If you are wielding a Deflect weapon with two hands, you can add your Strength modifier twice to this total, or add your Strength in addition to your Dexterity modifier if your weapon has the finesse property. If you are wielding two deflect weapons, you can choose to roll both weapon's deflect rolls for the same attack or you can choose to deflect another attack using your off hand weapon, as part of the same reaction. You do not add your modifier to the off hand Deflect roll unless you have the Two-Weapon Fighting Style. Deflect does not interact with any other weapon property, such as balanced or puncture; you simply roll your weapon's damage dice normally.",
+  },
+  {
+    name: "Disarm",
+    description:
+      "When you hit with a Disarm attack, you deal damage equal to your Strength modifier, minimum of 1, and force your enemy to roll its choice of a Strength or Dexterity saving throw. On a failure, it drops one held object of your choice, landing within 5ft of it in a direction of your choosing. If you have a free hand, you may come into possession of the disarmed item instead. If your target is a category size larger than you or using a two-handed weapon, it gains advantage on this save, while enemies two size categories larger than you are immune to this attack from you. If it is smaller than you, it suffers disadvantage. If you land a critical hit with this attack, your weapon deals normal damage in addition to forcing your enemy to roll the saving throw.",
+  },
+  {
+    name: "Double Ended",
+    description:
+      "When you take the attack action, you can make one additional attack as a bonus action using the damage listed plus your ability modifier, if you are within 5 ft of your target and wielding your weapon with two hands. Double Ended attacks are counted as off hand attacks, but do not need Two Weapon Fighting Style to gain your weapon ability modifier to damage.",
+  },
+  {
+    name: "Entangle",
+    description:
+      "When you hit with an Entangle attack, you deal only your Strength modifier in damage, minimum of 1, and force the enemy to succeed on its choice of a Strength or Dexterity saving throw or be grappled by you. To escape, the creature must succeed a grapple check against your weapon DC, gaining advantage if it is a size category larger than you. Creatures two size categories larger than you are immune to Entangle attacks from you. If you land a critical hit, your weapon deals normal damage in addition to forcing your enemy to roll the saving throw. While you are holding the weapon entangling your target, your weapon attacks against it automatically hit, but only deals damage equal to your Strength modifier, minimum 1. You can release an entangled enemy at any time. If you drop the weapon, the creature is immediately free.",
+  },
+  {
+    name: "Finesse",
+    description:
+      "When making an attack with a finesse weapon, you may use your Dexterity modifier for the attack and damage rolls, and use Dexterity instead of Strength in your weapon DC equation.",
+  },
+  {
+    name: "Firearm",
+    description:
+      "All firearm weapons require gunpowder per attack in addition to their other ammo requirement. Both ammunition requirements cannot be retrieved after making a ranged weapon attack with them. Rolling a 1 on an attack Roll causes this weapon to jam. It's still loaded, but a malfunction prevented ignition. As an action, you must clear the jam before it can make a ranged attack again. Firearm weapons can't make ranged attacks underwater, and if they are subjected to water such as from rain or a tidal wave spell, they gain +1 to their jam until you spend an action to dry them. All firearms create a sound which can be heard up to 300ft away.",
+  },
+  {
+    name: "Heavy",
+    description:
+      "Category size Small creatures always suffer disadvantage to attack rolls with a heavy weapon. Tiny and smaller cannot wield this weapon.",
+  },
+  {
+    name: "Hipshot",
+    description:
+      "This ranged weapon is extremely nimble and maneuverable. When you make a ranged weapon attack, you can ignore disadvantage for doing so while a hostile creature is within 5ft of you.",
+  },
+  {
+    name: "Keen",
+    description:
+      "This weapon is extraordinarily sharp or devastatingly accurate. When you score a critical hit or land an attack roll that is 10 or more than the enemy's AC with this weapon, add an additional damage dice to the weapon damage dice rolled. The added damage dice is not doubled in the case of a critical hit.",
+  },
+  {
+    name: "Light",
+    description:
+      "In order to dual wield two weapons, both weapons you wield must have this property. You can make an attack with your off-hand weapon as a bonus action, but don't add any ability modifier to damage. There is no requirement that your off hand weapon be melee in order to dual wield.",
+  },
+  {
+    name: "Lunge",
+    description:
+      "If you use an attack action, you can use 5ft of movement to attack a foe up to 5ft further than normal. Each attack which uses this property costs 5ft of movement. In order to use the lunge property, there must be clear ground in the direction of your lunge. You cannot lunge if an enemy or obstacle is directly in front of you.",
+  },
+  {
+    name: "Nimble",
+    description:
+      "When you make an attack against a creature that you are grappling or that you are grappled by, or while prone, you gain advantage to the roll.",
+  },
+  {
+    name: "Melee",
+    description:
+      "Melee weapons make a melee weapon attack at a target up to 5ft away, and add Strength modifier to attack and damage rolls.",
+  },
+  {
+    name: "One Handed",
+    description: "This weapon requires only one hand to wield properly.",
+  },
+  {
+    name: "Penetrate",
+    description:
+      "When you target an enemy with an AC of at least 15, minus any Dexterity bonus it may have, you may add half your Strength modifier again to your attack roll if you wield a Penetrate weapon with one hand, and your full Strength modifier if you wield the weapon with two hands. If you are wielding a weapon with Penetrate and Finesse with two hands, you may half your Dexterity modifier instead of your Strength modifier. Any ranged weapon which has Penetrate works a bit differently. You may add half your Dexterity modifier instead of Strength, no matter how many hands you use to wield the weapon.",
+  },
+  {
+    name: "Puncture",
+    description:
+      "These piercing weapons deal significantly more damage if they hit a vital weak spot in the enemy. When you roll a maximum value with any of your weapon's damage dice, you can roll that dice again and add the result to the total damage dealt. This can keep happening as many times as you roll maximum values on damage dice, even on the new rolls.",
+  },
+  {
+    name: "Ranged",
+    description:
+      "Ranged weapons make a ranged weapon attack using Dexterity for attack and damage rolls. It must be loaded with ammunition to make an attack. The ranged numbers list its normal and maximum range. When attacking enemies beyond the normal range or with an enemy within 5ft of you, you suffer disadvantage for that attack. A ranged weapon cannot attack targets beyond its maximum range.",
+  },
+  {
+    name: "Reach",
+    description:
+      "This weapon adds 5 feet to your reach when you make a melee weapon attack, as well as for determining your reach for opportunity attacks with it. Note that if there is a creature between you and your enemy within reach, your enemy has half cover. Reach cannot be used to extend the range of a Double Ended attack.",
+  },
+  {
+    name: "Reload",
+    description:
+      "Some ranged weapons take a time to reload, expressed in types of game actions. These game actions represent the time it takes to reset a weapon and prime it for another attack. From fastest to slowest, these are; free, object interaction, reaction, bonus, attack, action. Reload weapons require two hands to reload unless otherwise stated. If dual wielding with a Reload weapon, one item must be sheathed or dropped to Reload. Remember that sheathing a weapon requires an object interaction. Reloading as attack means you use an attack action and one of your main hand attacks is used to reload. If you have 3 attacks, you attack once, use your second attack to reload, then attack again. Note that you must use either an attack or an action to reload, and if you do not wish to attack, then reloading your weapon takes an action. Reload free has no action economy cost and reloads as quickly as a bow. The only detriment is that a Reload weapon still takes two hands to reload. You must always reload your weapon before using it for a ranged weapon attack again. If your weapon is empty at the end of your turn, it must be reloaded before you can use it again. Anything which grants an action or special set of extra actions, such as Haste or action Surge, can be used to reload. Furthermore, anything which grants a use object action as a bonus action, such as Rogue Thief's Fast Hands, can shorten an action or attack reload to a bonus action. You have the choice of reloading your weapon with any of the options that are slower. For example, a crossbow master using a light crossbow is able to reload using an object interaction, but can reload with a reaction, a bonus action, an attack, or an action.",
+  },
+  {
+    name: "Stagger",
+    description:
+      "The weight of your weapon can stagger the enemy's defense, causing them a minor distraction as the weapon you wield knocks them off guard. When you miss a creature that you can see with this weapon without rolling a 1, but the attack roll is less than the target's AC up to an amount equal to your Strength modifier, the next attack against this creature gains advantage. When you hit, you can choose to deal only your Strength modifier in damage, minimum of 1, and impart this effect voluntarily or push the target up to 5ft in a direction of your choosing. When you score a critical hit you can do both and deal full weapon damage. You cannot stagger targets 2 size categories larger than you. When using a ranged weapon with the stagger property, you substitute Dexterity for Strength in this case.",
+  },
+  {
+    name: "Sunder",
+    description:
+      "This weapon is especially heavy or designed to ruin armor. When you hit with a Sunder attack, you deal damage equal to your Strength modifier, minimum of 1, and force your enemy to roll its choice of a Strength or Dexterity saving throw plus any magical bonus to AC it may have. If it fails this save, you reduce the AC of its armor by 1 if you wield your Sunder weapon with one hand, and by 2 if you wield your Sunder weapon with two hands. Sunder cannot reduce the AC bonus provided by magical spells or items.",
+  },
+  {
+    name: "Thrown",
+    description:
+      "Thrown weapons are used to make a ranged weapon attack by throwing them at the enemy, dealing their melee damage on hit unless a different damage value is listed after the Thrown weapon property. They use Strength for attack and damage, unless the weapon has the Finesse property. You may draw and throw a weapon as part of the attack. If you throw a weapon without the Thrown property, the weapon is treated as an improvised weapon and may only cause a small amount of damage.",
+  },
+  {
+    name: "Trip",
+    description:
+      "When you hit with  a trip attack, you deal only your Strength modifier in damage on hit, minimum of 1, and your enemy must succeed on its choice of a Strength or Dexterity saving throw or be knocked prone. If you land a critical hit, your weapon deals normal damage in addition to forcing your enemy to roll the saving throw. Enemies a size category larger than you gain advantage on this save. Enemies two size categories larger than you are immune to being tripped in this way.",
+  },
+  {
+    name: "Two Handed",
+    description:
+      "This weapon requires two hands to use when you attack with it. You can't use only one hand to attack with a two handed weapon. While wielding a two handed weapon with strength as your ability modifier to attack and damage, add 1.5 your Strength modifier to damage, rounding down.",
+  },
+  {
+    name: "Versatile",
+    description:
+      "This weapon may be used with one or two hands and you can switch between them at any time. When used with two hands, you use the damage dice listed in parentheses. While wielding a versatile weapon with two hands with strength as your ability modifier to attack and damage, add 1.5 your Strength modifier to damage, rounding down.",
+  },
+];

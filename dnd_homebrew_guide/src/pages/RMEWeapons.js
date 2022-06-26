@@ -1,7 +1,7 @@
 import React from "react";
-import {weaponTypes, weapons, armor, shields, properties} from "../data/RME"
+import {weapons} from "../data/RME"
 
-const RME = () => {
+const RMEWeapons = () => {
 	const [sortingBy,setSortingBy] = React.useState("group");
 	const [sortingDir, setSortingDir] = React.useState(1);
 	const [searchQuery, setSearchQuery] = React.useState("");
@@ -21,6 +21,7 @@ const RME = () => {
 		...weapons.throwingWeapons.map(weapon => ({...weapon, group: 'Throwing Weapons'})),
 	]);
 	const [filteredWeapons,setFilteredWeapons] = React.useState([]);
+	const [selectedWeapon,setSelectedWeapon] = React.useState(null);
 
 	const sortWeaponsBy = (property) => {
 		if (allWeapons[0][property] === undefined) {
@@ -84,7 +85,7 @@ const RME = () => {
 					value={searchQuery}
 					onChange={handleSearchOnChange}
 				/>
-				<table className="table-auto w-full">
+				<table className="table-fixed w-full">
 					<tr className="cursor-pointer bg-slate-700 ">
 						<th 
 							className="py-2 hover:bg-slate-400 transition-colors duration-300 ease-in-out"
@@ -99,13 +100,13 @@ const RME = () => {
 							Group
 						</th>
 						<th 
-							className="py-2 hover:bg-slate-400 transition-colors duration-300 ease-in-out"
+							className="py-2 hover:bg-slate-400 transition-colors duration-300 ease-in-out w-[60px]"
 							onClick={() => sortWeaponsBy("gold")}
 						>
 							Cost
 						</th>
 						<th 
-							className="py-2 hover:bg-slate-400 transition-colors duration-300 ease-in-out"
+							className="py-2 hover:bg-slate-400 transition-colors duration-300 ease-in-out w-[60px]"
 							onClick={() => sortWeaponsBy("weight")}
 						>
 							Weight
@@ -119,18 +120,80 @@ const RME = () => {
 					<tbody>
 						{
 							(searchQuery.length > 0 ? filteredWeapons : allWeapons).map((weapon, ind) => (
-								<tr className='
-									even:bg-slate-600
-									odd:bg-slate-500
-									hover:bg-slate-400
-									cursor-pointer transition-colors duration-300 ease-in-out
-								'>
-									<td className='pl-3 py-2'>{weapon.name}</td>
-									<td>{weapon.group}</td>
-									<td>{weapon.gold} g</td>
-									<td>{weapon.weight} lbs</td>
-									<td>{[...weapon.damageTypes].join(' / ')}</td>
-								</tr>
+								<>
+									<tr className={`
+										${ind % 2 === 0 ? 'bg-slate-500' : 'bg-slate-600'}
+										${weapon.name === selectedWeapon ? 'bg-slate-400' : ''}
+										hover:bg-slate-400
+										cursor-pointer transition-colors duration-300 ease-in-out`}
+										onClick={() => {
+											if (selectedWeapon === weapon.name) {
+												setSelectedWeapon(null);
+											} else {
+												setSelectedWeapon(weapon.name);
+											}
+										}}	
+									>
+										<td className='pl-3 py-2'>{weapon.name}</td>
+										<td>{weapon.group}</td>
+										<td>{weapon.gold} g</td>
+										<td>{weapon.weight} lbs</td>
+										<td>{[...weapon.damageTypes].join(' / ')}</td>
+									</tr>
+									<tr
+										className={`
+										${selectedWeapon === weapon.name ? '' : 'hidden'}
+										${ind % 2 === 0 ? 'bg-slate-500' : 'bg-slate-600'}
+										`}
+									>
+										<td
+											colSpan={5}
+										>
+											<div
+												className="grid grid-cols-3 gap-4 py-1 px-2"
+											>
+												<div>{weapon.description}</div>
+												<div>
+													<div className="py-1">
+														Untrained: {[...weapon.untrained].join(', ')}
+													</div>
+													<div className="py-1 border-t">
+														Basic: {[...weapon.basic].join(', ')}
+													</div>
+													<div className="py-1 border-t">
+														Master: {[...weapon.master].join(', ')}
+													</div>
+													{
+														weapon.meleeTable &&
+														(<div  className="border-t py-1">
+															<table>
+																<thead>
+																	<tr>
+																		<th className="border-r border-b py-1 px-2">
+																			Proficiency
+																		</th>
+																		<th className="border-b py-1 px-2">
+																			Damage
+																		</th>
+																	</tr>	
+																</thead>
+																<tbody>
+																	{Object.entries(weapon.meleeTable).map(meleeRow => (
+																		<tr>
+																			<td className="border-r py-1 px-2">{meleeRow[0]}</td>
+																			<td className="py-1 px-2">{meleeRow[1]}</td>
+																		</tr>
+																	))}	
+																</tbody>	
+															</table>	
+														</div>)
+													}
+												</div>
+												<div><span className="block underline">Master Perk</span>{weapon.perk}</div>
+											</div>
+										</td>
+									</tr>
+								</>
 							))
 						}
 					</tbody>
@@ -140,4 +203,4 @@ const RME = () => {
   );
 };
 
-export default RME;
+export default RMEWeapons;

@@ -165,7 +165,7 @@ export const weapons = {
       damageTypes: ["An Interceptor deals no damage."],
       description:
         "A generic term for clothing used to deflect, such as a thick wool cloak, silk scarf, or wide brimmed hat. While you may wear an interceptor, it must be equipped to be used but gives you +1 Shield AC when equipped. The master can catch missile weapons in flight, even protecting an ally",
-      untrained: "You cannot wield an Interceptor while Untrained",
+      untrained: ["You cannot wield an Interceptor while Untrained"],
       basic: [
         "one handed",
         "affixed",

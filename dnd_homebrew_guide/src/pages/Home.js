@@ -13,9 +13,9 @@ const Home = () => {
 				className='mt-5 w-[70%]'
 			>
 		 		<Button 
-					text="Revised Martial Equipment"
+					text="Revised Martial Equipment Weapons"
 					additionalCSS="w-full"
-					onClick={() => {navigate('/dnd_homebrew_guide/rme')}}
+					onClick={() => {navigate('/dnd_homebrew_guide/rme_weapons')}}
 				/>
 			</div>
 		</div>

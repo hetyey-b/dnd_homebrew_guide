@@ -1,5 +1,8 @@
 import React from "react";
-import {weapons} from "../data/RME"
+import {weapons, properties} from "../data/RME"
+
+import {AiOutlineClose} from 'react-icons/ai';
+import {GoTriangleDown, GoTriangleUp} from 'react-icons/go';
 
 const RMEWeapons = () => {
 	const [sortingBy,setSortingBy] = React.useState("group");
@@ -22,6 +25,7 @@ const RMEWeapons = () => {
 	]);
 	const [filteredWeapons,setFilteredWeapons] = React.useState([]);
 	const [selectedWeapon,setSelectedWeapon] = React.useState(null);
+	const [checkedProperties, setCheckedProperties] = React.useState([]);
 
 	const sortWeaponsBy = (property) => {
 		if (allWeapons[0][property] === undefined) {
@@ -69,7 +73,7 @@ const RMEWeapons = () => {
 				return weapon.name.toLowerCase().includes(searchQuery);
 			}));
 		}, 500);
-	}, [searchQuery]);
+	}, [allWeapons, searchQuery]);
 
 	const handleSearchOnChange = (event) => {
 		setSearchQuery(event.target.value.toLowerCase());
@@ -81,42 +85,125 @@ const RMEWeapons = () => {
 				<input
 					type="text"
 					placeholder="Search..."
-					className="mb-4 bg-slate-700 text-slate-50 px-2 py-1"
+					className="mb-4 bg-slate-700 text-slate-50 px-2 py-1 w-[300px]"
 					value={searchQuery}
 					onChange={handleSearchOnChange}
 				/>
+				<button
+					className="ml-[-20px]"
+					onClick={() => setSearchQuery('')}
+				>
+					<AiOutlineClose />
+				</button>
+				<div
+					className="block mb-2"
+				>
+					{
+						properties.map((property) => (
+							<label className="mx-2 inline-block cursor-pointer">
+								<input 
+									className="bg-slate-700"
+									type="checkbox"
+									defaultChecked={checkedProperties.includes(property.name)}
+									onChange={() => {
+										const newCheckedTypes = [...checkedProperties];
+										if (newCheckedTypes.includes(property.name)) {
+											newCheckedTypes.splice(newCheckedTypes.indexOf(property.name), 1);
+										} else {
+											newCheckedTypes.push(property.name);
+										}
+										setCheckedProperties(newCheckedTypes);
+									}}
+								/>
+								<span className="ml-1">
+									{property.name}
+								</span>
+							</label>
+						))
+					}
+				</div>
 				<table className="table-fixed w-full">
-					<tr className="cursor-pointer bg-slate-700 ">
-						<th 
-							className="py-2 hover:bg-slate-400 transition-colors duration-300 ease-in-out"
-							onClick={() => sortWeaponsBy("name")}
-						>
-							Weapon
-						</th>
-						<th 
-							className="py-2 hover:bg-slate-400 transition-colors duration-300 ease-in-out"
-							onClick={() => sortWeaponsBy("group")}
-						>
-							Group
-						</th>
-						<th 
-							className="py-2 hover:bg-slate-400 transition-colors duration-300 ease-in-out w-[60px]"
-							onClick={() => sortWeaponsBy("gold")}
-						>
-							Cost
-						</th>
-						<th 
-							className="py-2 hover:bg-slate-400 transition-colors duration-300 ease-in-out w-[60px]"
-							onClick={() => sortWeaponsBy("weight")}
-						>
-							Weight
-						</th>
-						<th 
-							className="py-2 hover:bg-slate-400 transition-colors duration-300 ease-in-out"
-						>
-							Damage type
-						</th>
-					</tr>
+					<thead>
+						<tr className="cursor-pointer bg-slate-700 ">
+							<th 
+								className="py-2 hover:bg-slate-400 transition-colors duration-300 ease-in-out"
+								onClick={() => sortWeaponsBy("name")}
+							>
+								<span className="inline-block">
+									Weapon
+								</span>
+								{
+									sortingBy === "name" &&
+									<span className="ml-2 inline-block">
+										{
+											sortingDir === 1 ?
+											<GoTriangleDown /> :
+											<GoTriangleUp />
+										}
+									</span>
+								}
+							</th>
+							<th 
+								className="py-2 hover:bg-slate-400 transition-colors duration-300 ease-in-out"
+								onClick={() => sortWeaponsBy("group")}
+							>
+								<span className="inline-block">
+									Group
+								</span>
+								{
+									sortingBy === "group" &&
+									<span className="ml-2 inline-block">
+										{
+											sortingDir === 1 ?
+											<GoTriangleDown /> :
+											<GoTriangleUp />
+										}
+									</span>
+								}
+							</th>
+							<th 
+								className="py-2 hover:bg-slate-400 transition-colors duration-300 ease-in-out w-[60px]"
+								onClick={() => sortWeaponsBy("gold")}
+							>
+								<span className="inline-block">
+									Cost
+								</span>
+								{
+									sortingBy === "gold" &&
+									<span className="ml-2 inline-block">
+										{
+											sortingDir === 1 ?
+											<GoTriangleDown /> :
+											<GoTriangleUp />
+										}
+									</span>
+								}
+							</th>
+							<th 
+								className="py-2 hover:bg-slate-400 transition-colors duration-300 ease-in-out w-[100px]"
+								onClick={() => sortWeaponsBy("weight")}
+							>
+								<span className="inline-block">
+									Weight
+								</span>
+								{
+									sortingBy === "weight" &&
+									<span className="ml-2 inline-block">
+										{
+											sortingDir === 1 ?
+											<GoTriangleDown /> :
+											<GoTriangleUp />
+										}
+									</span>
+								}
+							</th>
+							<th 
+								className="py-2 hover:bg-slate-400 transition-colors duration-300 ease-in-out"
+							>
+								Damage type
+							</th>
+						</tr>
+					</thead>
 					<tbody>
 						{
 							(searchQuery.length > 0 ? filteredWeapons : allWeapons).map((weapon, ind) => (

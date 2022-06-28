@@ -64,16 +64,21 @@ const RMEWeapons = () => {
 
 	React.useEffect(() => {
 		setTimeout(() => {
-			if (searchQuery === "") {
+			if (searchQuery === "" && checkedProperties.length === 0) {
 				setFilteredWeapons([]);
 				return;
 			}
 
 			setFilteredWeapons(allWeapons.filter(weapon => {
-				return weapon.name.toLowerCase().includes(searchQuery);
+				const searchQueryMatch = weapon.name.toLowerCase().includes(searchQuery);
+				const checkedPropertiesMatch = checkedProperties.every((property) => {
+					return [...weapon.untrained, ...weapon.basic, ...weapon.master].some(weaponProperty => weaponProperty.includes(property.toLowerCase()));
+				});
+
+				return searchQueryMatch && checkedPropertiesMatch;
 			}));
 		}, 500);
-	}, [allWeapons, searchQuery]);
+	}, [allWeapons, searchQuery, checkedProperties]);
 
 	const handleSearchOnChange = (event) => {
 		setSearchQuery(event.target.value.toLowerCase());
@@ -206,7 +211,8 @@ const RMEWeapons = () => {
 					</thead>
 					<tbody>
 						{
-							(searchQuery.length > 0 ? filteredWeapons : allWeapons).map((weapon, ind) => (
+							(searchQuery.length > 0 || checkedProperties.length > 0 ? 
+								filteredWeapons : allWeapons).map((weapon, ind) => (
 								<>
 									<tr className={`
 										${ind % 2 === 0 ? 'bg-slate-500' : 'bg-slate-600'}

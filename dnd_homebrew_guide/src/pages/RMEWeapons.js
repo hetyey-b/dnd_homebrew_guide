@@ -26,6 +26,7 @@ const RMEWeapons = () => {
 	const [filteredWeapons,setFilteredWeapons] = React.useState([]);
 	const [selectedWeapon,setSelectedWeapon] = React.useState(null);
 	const [checkedProperties, setCheckedProperties] = React.useState([]);
+	const [loading, setLoading] = React.useState(false);
 
 	const sortWeaponsBy = (property) => {
 		if (allWeapons[0][property] === undefined) {
@@ -66,6 +67,7 @@ const RMEWeapons = () => {
 		setTimeout(() => {
 			if (searchQuery === "" && checkedProperties.length === 0) {
 				setFilteredWeapons([]);
+				setLoading(false);
 				return;
 			}
 
@@ -77,16 +79,32 @@ const RMEWeapons = () => {
 
 				return searchQueryMatch && checkedPropertiesMatch;
 			}));
+			setLoading(false);
 		}, 500);
 	}, [allWeapons, searchQuery, checkedProperties]);
 
 	const handleSearchOnChange = (event) => {
+		setLoading(true);
 		setSearchQuery(event.target.value.toLowerCase());
 	}
 
   return (
+
     <div className="flex justify-center">
-      <div className="mt-5 w-[70%]">
+			<div
+				className={`
+					absolute w-[500px]
+					bg-slate-600
+					top-[35%]
+					rounded border-slate-50 border-2
+					text-center
+					p-4 z-10
+					${loading ? '' : 'hidden'}
+				`}
+			>
+				Loading...
+			</div>
+      <div className={`mt-5 w-[70%] ${loading ? 'opacity-40' : ''}`}>
 				<input
 					type="text"
 					placeholder="Search..."
@@ -111,6 +129,7 @@ const RMEWeapons = () => {
 									type="checkbox"
 									defaultChecked={checkedProperties.includes(property.name)}
 									onChange={() => {
+										setLoading(true);
 										const newCheckedTypes = [...checkedProperties];
 										if (newCheckedTypes.includes(property.name)) {
 											newCheckedTypes.splice(newCheckedTypes.indexOf(property.name), 1);

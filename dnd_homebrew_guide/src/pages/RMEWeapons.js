@@ -27,6 +27,7 @@ const RMEWeapons = () => {
 	const [selectedWeapon,setSelectedWeapon] = React.useState(null);
 	const [checkedProperties, setCheckedProperties] = React.useState([]);
 	const [loading, setLoading] = React.useState(false);
+	const [simpleOnly, setSimpleOnly] = React.useState(false);
 
 	const sortWeaponsBy = (property) => {
 		if (allWeapons[0][property] === undefined) {
@@ -65,7 +66,7 @@ const RMEWeapons = () => {
 
 	React.useEffect(() => {
 		setTimeout(() => {
-			if (searchQuery === "" && checkedProperties.length === 0) {
+			if (searchQuery === "" && checkedProperties.length === 0 && !simpleOnly) {
 				setFilteredWeapons([]);
 				setLoading(false);
 				return;
@@ -77,11 +78,19 @@ const RMEWeapons = () => {
 					return [...weapon.untrained, ...weapon.basic, ...weapon.master].some(weaponProperty => weaponProperty.includes(property.toLowerCase()));
 				});
 
+				if (simpleOnly && weapon.untrained.includes('awkward')) {
+					return false;
+				}
+
 				return searchQueryMatch && checkedPropertiesMatch;
 			}));
 			setLoading(false);
 		}, 500);
-	}, [allWeapons, searchQuery, checkedProperties]);
+	}, [allWeapons, searchQuery, checkedProperties, simpleOnly]);
+
+	React.useEffect(() => {
+		console.log(simpleOnly);
+	}, [simpleOnly])
 
 	const handleSearchOnChange = (event) => {
 		setLoading(true);
@@ -118,6 +127,20 @@ const RMEWeapons = () => {
 				>
 					<AiOutlineClose />
 				</button>
+				<label className="mx-2 inline-block cursor-pointer">
+					<input 
+						className="bg-slate-700"
+						type="checkbox"
+						defaultChecked={simpleOnly}
+						onChange={() => {
+							setLoading(true);
+							setSimpleOnly(!simpleOnly);
+						}}
+					/>
+					<span className="ml-1">
+						Simple Only
+					</span>
+				</label>
 				<div
 					className="block mb-2"
 				>
@@ -230,7 +253,7 @@ const RMEWeapons = () => {
 					</thead>
 					<tbody>
 						{
-							(searchQuery.length > 0 || checkedProperties.length > 0 ? 
+							(searchQuery.length > 0 || checkedProperties.length > 0 || simpleOnly ? 
 								filteredWeapons : allWeapons).map((weapon, ind) => (
 								<>
 									<tr className={`

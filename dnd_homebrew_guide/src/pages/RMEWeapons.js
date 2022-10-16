@@ -28,6 +28,7 @@ const RMEWeapons = () => {
 	const [checkedProperties, setCheckedProperties] = React.useState([]);
 	const [loading, setLoading] = React.useState(false);
 	const [simpleOnly, setSimpleOnly] = React.useState(false);
+	const [nonHeavyOnly, setNonHeavyOnly] = React.useState(false);
 
 	const sortWeaponsBy = (property) => {
 		if (allWeapons[0][property] === undefined) {
@@ -82,15 +83,15 @@ const RMEWeapons = () => {
 					return false;
 				}
 
+				if (nonHeavyOnly && [...weapon.untrained, ...weapon.basic, weapon.master].every(weaponProperty => !weaponProperty.includes('heavy'))) {
+					return false;
+				}
+
 				return searchQueryMatch && checkedPropertiesMatch;
 			}));
 			setLoading(false);
 		}, 500);
 	}, [allWeapons, searchQuery, checkedProperties, simpleOnly]);
-
-	React.useEffect(() => {
-		console.log(simpleOnly);
-	}, [simpleOnly])
 
 	const handleSearchOnChange = (event) => {
 		setLoading(true);
@@ -139,6 +140,20 @@ const RMEWeapons = () => {
 					/>
 					<span className="ml-1">
 						Simple Only
+					</span>
+				</label>
+				<label className="mx-2 inline-block cursor-pointer">
+					<input 
+						className="bg-slate-700"
+						type="checkbox"
+						defaultChecked={nonHeavyOnly}
+						onChange={() => {
+							setLoading(true);
+							setSimpleOnly(!nonHeavyOnly);
+						}}
+					/>
+					<span className="ml-1">
+						Non-Heavy Only
 					</span>
 				</label>
 				<div

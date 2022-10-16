@@ -91,7 +91,7 @@ const RMEWeapons = () => {
 			}));
 			setLoading(false);
 		}, 500);
-	}, [allWeapons, searchQuery, checkedProperties, simpleOnly]);
+	}, [allWeapons, searchQuery, checkedProperties, simpleOnly, nonHeavyOnly]);
 
 	const handleSearchOnChange = (event) => {
 		setLoading(true);
@@ -149,7 +149,7 @@ const RMEWeapons = () => {
 						defaultChecked={nonHeavyOnly}
 						onChange={() => {
 							setLoading(true);
-							setSimpleOnly(!nonHeavyOnly);
+							setNonHeavyOnly(!nonHeavyOnly);
 						}}
 					/>
 					<span className="ml-1">
